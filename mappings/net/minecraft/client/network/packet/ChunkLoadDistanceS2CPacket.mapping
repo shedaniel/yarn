@@ -1,3 +1,0 @@
-CLASS mp net/minecraft/client/network/packet/ChunkLoadDistanceS2CPacket
-	FIELD a distance I
-	METHOD b getDistance ()I

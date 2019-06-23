@@ -1,2 +1,0 @@
-CLASS cyn net/minecraft/client/font/FontLoader
-	METHOD a load (Lxg;)Lctp;

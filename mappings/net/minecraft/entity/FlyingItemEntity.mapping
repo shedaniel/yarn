@@ -1,2 +1,0 @@
-CLASS awn net/minecraft/entity/FlyingItemEntity
-	METHOD f getStack ()Lbce;

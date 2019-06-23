@@ -1,3 +1,0 @@
-CLASS dxu net/minecraft/client/sound/AudioStream
-	METHOD a getFormat ()Ljavax/sound/sampled/AudioFormat;
-	METHOD b getBuffer ()Ljava/nio/ByteBuffer;

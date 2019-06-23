@@ -1,3 +1,0 @@
-CLASS nv net/minecraft/server/network/packet/UpdateDifficultyC2SPacket
-	FIELD a difficulty Lahd;
-	METHOD b getDifficulty ()Lahd;

@@ -1,4 +1,0 @@
-CLASS doa net/minecraft/client/render/debug/GoalSelectorDebugRenderer
-	FIELD a client Lcvo;
-	FIELD b goalSelectors Ljava/util/Map;
-	METHOD a setGoalSelectorList (ILjava/util/List;)V

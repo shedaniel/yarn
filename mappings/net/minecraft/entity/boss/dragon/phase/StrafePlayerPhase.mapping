@@ -1,4 +1,0 @@
-CLASS asy net/minecraft/entity/boss/dragon/phase/StrafePlayerPhase
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Lask;)V
-		ARG 1 dragon

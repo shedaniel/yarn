@@ -1,2 +1,0 @@
-CLASS dqd net/minecraft/client/render/entity/IllusionerEntityRenderer
-	FIELD a SKIN Lqt;

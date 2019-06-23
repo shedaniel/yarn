@@ -1,3 +1,0 @@
-CLASS vs net/minecraft/server/WorldGenerationProgressListenerFactory
-	METHOD create (I)Lvr;
-		ARG 1 radius

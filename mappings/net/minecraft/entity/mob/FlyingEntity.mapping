@@ -1,3 +1,0 @@
-CLASS ais net/minecraft/entity/mob/FlyingEntity
-	METHOD <init> (Laip;Lbhm;)V
-		ARG 1 type

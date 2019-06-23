@@ -1,2 +1,0 @@
-CLASS dmx net/minecraft/client/render/block/entity/ShulkerBoxBlockEntityRenderer
-	FIELD c model Ldgf;

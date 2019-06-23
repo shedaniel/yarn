@@ -1,3 +1,0 @@
-CLASS dqn net/minecraft/client/render/entity/LlamaSpitEntityRenderer
-	FIELD a SKIN Lqt;
-	FIELD f model Ldfi;

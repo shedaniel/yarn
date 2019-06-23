@@ -1,4 +1,0 @@
-CLASS ig net/minecraft/nbt/FloatTag
-	FIELD f value F
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

@@ -1,3 +1,0 @@
-CLASS dmo net/minecraft/client/render/block/entity/BellBlockEntityRenderer
-	FIELD c BELL_BODY_TEXTURE Lqt;
-	FIELD d model Ldee;

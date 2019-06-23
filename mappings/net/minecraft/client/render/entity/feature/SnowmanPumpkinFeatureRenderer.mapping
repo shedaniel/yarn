@@ -1,3 +1,0 @@
-CLASS dto net/minecraft/client/render/entity/feature/SnowmanPumpkinFeatureRenderer
-	METHOD <init> (Ldrd;)V
-		ARG 1 context

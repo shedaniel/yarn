@@ -1,3 +1,0 @@
-CLASS aqp net/minecraft/entity/mob/AmbientEntity
-	METHOD <init> (Laip;Lbhm;)V
-		ARG 1 type

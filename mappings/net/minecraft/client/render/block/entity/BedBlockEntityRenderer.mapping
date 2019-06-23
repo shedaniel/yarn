@@ -1,3 +1,0 @@
-CLASS dmn net/minecraft/client/render/block/entity/BedBlockEntityRenderer
-	FIELD c TEXTURES [Lqt;
-	FIELD d model Lded;

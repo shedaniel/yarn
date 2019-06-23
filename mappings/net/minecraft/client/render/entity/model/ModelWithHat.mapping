@@ -1,3 +1,0 @@
-CLASS drz net/minecraft/client/render/entity/model/ModelWithHat
-	METHOD a setHatVisible (Z)V
-		ARG 1 visible

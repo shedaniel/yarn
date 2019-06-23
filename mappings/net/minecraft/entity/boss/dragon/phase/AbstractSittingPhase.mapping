@@ -1,3 +1,0 @@
-CLASS asn net/minecraft/entity/boss/dragon/phase/AbstractSittingPhase
-	METHOD <init> (Lask;)V
-		ARG 1 dragon

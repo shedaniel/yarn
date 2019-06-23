@@ -1,3 +1,0 @@
-CLASS dmv net/minecraft/client/render/block/entity/LecternBlockEntityRenderer
-	FIELD c BOOK_TEXTURE Lqt;
-	FIELD d book Ldeh;

@@ -1,2 +1,0 @@
-CLASS ox net/minecraft/server/network/packet/SelectVillagerTradeC2SPacket
-	FIELD a tradeId I

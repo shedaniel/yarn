@@ -1,3 +1,0 @@
-CLASS clm net/minecraft/fluid/WaterFluid
-	CLASS a Flowing
-	CLASS b Still

@@ -1,5 +1,0 @@
-CLASS dve net/minecraft/client/texture/PaintingManager
-	FIELD a PAINTING_BACK_ID Lqt;
-	METHOD a getPaintingSprite (Latk;)Ldun;
-		ARG 1 motive
-	METHOD b getBackSprite ()Ldun;

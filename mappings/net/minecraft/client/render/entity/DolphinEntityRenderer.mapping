@@ -1,2 +1,0 @@
-CLASS dpe net/minecraft/client/render/entity/DolphinEntityRenderer
-	FIELD a SKIN Lqt;

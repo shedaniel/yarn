@@ -1,3 +1,0 @@
-CLASS dsr net/minecraft/client/render/entity/feature/HeadFeatureRenderer
-	METHOD <init> (Ldrd;)V
-		ARG 1 context

@@ -1,3 +1,0 @@
-CLASS az net/minecraft/advancement/criterion/ImpossibleCriterion
-	CLASS a Conditions
-	FIELD a ID Lqt;

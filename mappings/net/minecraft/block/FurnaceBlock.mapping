@@ -1,3 +1,0 @@
-CLASS bow net/minecraft/block/FurnaceBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

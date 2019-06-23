@@ -1,2 +1,0 @@
-CLASS doz net/minecraft/client/render/entity/CodEntityRenderer
-	FIELD a SKIN Lqt;

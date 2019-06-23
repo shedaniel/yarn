@@ -1,2 +1,0 @@
-CLASS dpl net/minecraft/client/render/entity/EndermiteEntityRenderer
-	FIELD a SKIN Lqt;

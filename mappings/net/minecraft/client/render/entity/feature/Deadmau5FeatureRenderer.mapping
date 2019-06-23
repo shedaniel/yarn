@@ -1,3 +1,0 @@
-CLASS dss net/minecraft/client/render/entity/feature/Deadmau5FeatureRenderer
-	METHOD <init> (Ldrd;)V
-		ARG 1 context

@@ -1,2 +1,0 @@
-CLASS gh net/minecraft/particle/DefaultParticleType
-	FIELD a PARAMETER_FACTORY Lge$a;

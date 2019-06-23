@@ -1,3 +1,0 @@
-CLASS dsn net/minecraft/client/render/entity/feature/CapeFeatureRenderer
-	METHOD <init> (Ldrd;)V
-		ARG 1 context

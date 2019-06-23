@@ -1,3 +1,0 @@
-CLASS bpe net/minecraft/block/HayBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

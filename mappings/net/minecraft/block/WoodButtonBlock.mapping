@@ -1,3 +1,0 @@
-CLASS btg net/minecraft/block/WoodButtonBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

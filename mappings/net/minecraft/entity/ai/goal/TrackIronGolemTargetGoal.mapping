@@ -1,3 +1,0 @@
-CLASS aor net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
-	FIELD a golem Lard;
-	FIELD b target Laiu;

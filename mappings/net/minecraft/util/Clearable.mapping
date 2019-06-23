@@ -1,3 +1,0 @@
-CLASS agx net/minecraft/util/Clearable
-	METHOD L_ clear ()V
-	METHOD a clear (Ljava/lang/Object;)V

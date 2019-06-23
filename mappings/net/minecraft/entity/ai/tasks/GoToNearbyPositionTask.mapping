@@ -1,4 +1,0 @@
-CLASS alj net/minecraft/entity/ai/tasks/GoToNearbyPositionTask
-	FIELD a memoryModuleType Lape;
-	FIELD c maxDistance I
-	FIELD d nextRunTime J

@@ -1,4 +1,0 @@
-CLASS ciy net/minecraft/structure/rule/BlockMatchRuleTest
-	FIELD a block Lbmq;
-	METHOD <init> (Lbmq;)V
-		ARG 1 block

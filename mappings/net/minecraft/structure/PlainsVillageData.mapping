@@ -1,2 +1,0 @@
-CLASS cdh net/minecraft/structure/PlainsVillageData
-	METHOD a initialize ()V

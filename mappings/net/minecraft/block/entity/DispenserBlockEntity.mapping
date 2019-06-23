@@ -1,6 +1,0 @@
-CLASS bua net/minecraft/block/entity/DispenserBlockEntity
-	FIELD a RANDOM Ljava/util/Random;
-	FIELD b inventory Lfj;
-	METHOD a addToFirstFreeSlot (Lbce;)I
-		ARG 1 stack
-	METHOD h chooseNonEmptySlot ()I

@@ -1,3 +1,0 @@
-CLASS crp net/minecraft/world/timer/FunctionTimerCallback
-	CLASS a Serializer
-	FIELD a name Lqt;

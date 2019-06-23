@@ -1,2 +1,0 @@
-CLASS zr net/minecraft/util/LowercaseMap
-	FIELD a delegate Ljava/util/Map;

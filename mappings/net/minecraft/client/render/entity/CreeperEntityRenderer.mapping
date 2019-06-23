@@ -1,2 +1,0 @@
-CLASS dpb net/minecraft/client/render/entity/CreeperEntityRenderer
-	FIELD a SKIN Lqt;

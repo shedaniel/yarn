@@ -1,2 +1,0 @@
-CLASS agh net/minecraft/util/profiler/DummyProfiler
-	FIELD a INSTANCE Lagh;

@@ -1,4 +1,0 @@
-CLASS dsi net/minecraft/client/render/entity/WolfEntityRenderer
-	FIELD a WILD_SKIN Lqt;
-	FIELD j TAMED_SKIN Lqt;
-	FIELD k ANGRY_SKIN Lqt;

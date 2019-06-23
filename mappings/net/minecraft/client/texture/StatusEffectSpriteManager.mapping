@@ -1,2 +1,0 @@
-CLASS dvd net/minecraft/client/texture/StatusEffectSpriteManager
-	METHOD a getSprite (Laid;)Ldun;

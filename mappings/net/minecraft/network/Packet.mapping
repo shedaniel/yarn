@@ -1,8 +1,1 @@
-CLASS kb net/minecraft/network/Packet
-	METHOD a isErrorFatal ()Z
-	METHOD a read (Ljd;)V
-		ARG 1 buf
-	METHOD a apply (Ljg;)V
-		ARG 1 listener
-	METHOD b write (Ljd;)V
-		ARG 1 buf
+CLASS a net/minecraft/network/Packet

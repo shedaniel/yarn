@@ -1,3 +1,0 @@
-CLASS dpv net/minecraft/client/render/entity/GhastEntityRenderer
-	FIELD a SKIN Lqt;
-	FIELD j ANGRY_SKIN Lqt;

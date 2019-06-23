@@ -1,3 +1,0 @@
-CLASS dml net/minecraft/client/render/block/entity/BannerBlockEntityRenderer
-	FIELD c model Ldeb;
-	METHOD a getTextureId (Lbtj;)Lqt;

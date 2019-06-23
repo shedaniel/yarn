@@ -1,3 +1,0 @@
-CLASS dcq net/minecraft/client/gui/screen/recipebook/RecipeBookProvider
-	METHOD Y_ refreshRecipeBook ()V
-	METHOD c getRecipeBookGui ()Ldck;

@@ -1,3 +1,0 @@
-CLASS djm net/minecraft/client/particle/SpriteProvider
-	METHOD a getSprite (II)Ldun;
-	METHOD a getSprite (Ljava/util/Random;)Ldun;

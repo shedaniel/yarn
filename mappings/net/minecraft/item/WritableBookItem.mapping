@@ -1,5 +1,0 @@
-CLASS bdr net/minecraft/item/WritableBookItem
-	METHOD <init> (Lbbz$a;)V
-		ARG 1 settings
-	METHOD b isValid (Lic;)Z
-		ARG 0 tag

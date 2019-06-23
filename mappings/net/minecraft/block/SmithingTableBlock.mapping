@@ -1,3 +1,0 @@
-CLASS bro net/minecraft/block/SmithingTableBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

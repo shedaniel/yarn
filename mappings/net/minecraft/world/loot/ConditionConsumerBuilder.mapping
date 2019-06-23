@@ -1,4 +1,0 @@
-CLASS cqx net/minecraft/world/loot/ConditionConsumerBuilder
-	METHOD b withCondition (Lcre$a;)Ljava/lang/Object;
-		ARG 1 builder
-	METHOD c getThis ()Ljava/lang/Object;

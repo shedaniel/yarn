@@ -1,4 +1,0 @@
-CLASS cmz net/minecraft/world/biome/layer/SouthEastSamplingLayer
-	METHOD a sample (Lclt;I)I
-		ARG 1 context
-		ARG 2 se

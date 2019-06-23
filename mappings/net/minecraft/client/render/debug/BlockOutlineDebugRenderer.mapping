@@ -1,2 +1,0 @@
-CLASS dog net/minecraft/client/render/debug/BlockOutlineDebugRenderer
-	FIELD a client Lcvo;

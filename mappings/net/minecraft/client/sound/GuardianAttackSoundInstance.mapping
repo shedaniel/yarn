@@ -1,2 +1,0 @@
-CLASS dwu net/minecraft/client/sound/GuardianAttackSoundInstance
-	FIELD o guardian Lauj;

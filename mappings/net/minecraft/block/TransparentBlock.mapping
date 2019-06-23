@@ -1,3 +1,0 @@
-CLASS bpd net/minecraft/block/TransparentBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

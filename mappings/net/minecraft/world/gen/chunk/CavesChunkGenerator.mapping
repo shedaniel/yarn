@@ -1,3 +1,0 @@
-CLASS byx net/minecraft/world/gen/chunk/CavesChunkGenerator
-	FIELD h noiseFalloff [D
-	METHOD j buidlNoiseFalloff ()[D

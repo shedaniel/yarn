@@ -1,3 +1,0 @@
-CLASS dpk net/minecraft/client/render/entity/EndermanEntityRenderer
-	FIELD a SKIN Lqt;
-	FIELD j random Ljava/util/Random;

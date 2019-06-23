@@ -1,2 +1,0 @@
-CLASS dta net/minecraft/client/render/entity/feature/HorseArmorFeatureRenderer
-	FIELD a model Ldez;

@@ -1,3 +1,0 @@
-CLASS ou net/minecraft/server/network/packet/RenameItemC2SPacket
-	FIELD a itemName Ljava/lang/String;
-	METHOD b getItemName ()Ljava/lang/String;

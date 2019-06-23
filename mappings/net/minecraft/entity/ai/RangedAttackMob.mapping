@@ -1,3 +1,0 @@
-CLASS aus net/minecraft/entity/ai/RangedAttackMob
-	METHOD a attack (Laiu;F)V
-		ARG 1 target

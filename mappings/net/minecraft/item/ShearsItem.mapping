@@ -1,3 +1,0 @@
-CLASS bcw net/minecraft/item/ShearsItem
-	METHOD a (Laiu;)V
-		ARG 0 e

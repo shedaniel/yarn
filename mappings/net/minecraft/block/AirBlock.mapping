@@ -1,3 +1,0 @@
-CLASS blu net/minecraft/block/AirBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

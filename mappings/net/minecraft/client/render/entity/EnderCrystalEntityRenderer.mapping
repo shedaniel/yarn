@@ -1,2 +1,0 @@
-CLASS dpi net/minecraft/client/render/entity/EnderCrystalEntityRenderer
-	FIELD a SKIN Lqt;

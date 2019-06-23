@@ -1,5 +1,0 @@
-CLASS bnn net/minecraft/block/ConduitBlock
-	FIELD a WATERLOGGED Lbwg;
-	FIELD b SHAPE Lcsv;
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

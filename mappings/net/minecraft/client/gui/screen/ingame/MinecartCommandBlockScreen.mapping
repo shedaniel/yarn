@@ -1,4 +1,0 @@
-CLASS dbt net/minecraft/client/gui/screen/ingame/MinecartCommandBlockScreen
-	FIELD m commandExecutor Lbgs;
-	METHOD <init> (Lbgs;)V
-		ARG 1 commandExecutor

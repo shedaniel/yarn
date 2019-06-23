@@ -1,2 +1,0 @@
-CLASS dnw net/minecraft/client/render/debug/ChunkBorderDebugRenderer
-	FIELD a client Lcvo;

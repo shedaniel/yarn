@@ -1,3 +1,0 @@
-CLASS bel net/minecraft/recipe/MapExtendingRecipe
-	METHOD a matches (Lcob;)Z
-		ARG 1 state

@@ -1,2 +1,0 @@
-CLASS fx net/minecraft/block/dispenser/FallibleItemDispenserBehavior
-	FIELD b success Z

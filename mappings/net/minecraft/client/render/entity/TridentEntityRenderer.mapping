@@ -1,3 +1,0 @@
-CLASS drr net/minecraft/client/render/entity/TridentEntityRenderer
-	FIELD a SKIN Lqt;
-	FIELD f model Ldgo;

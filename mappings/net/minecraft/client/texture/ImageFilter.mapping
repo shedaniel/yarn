@@ -1,2 +1,0 @@
-CLASS dkp net/minecraft/client/texture/ImageFilter
-	METHOD a filterImage (Lcuc;)Lcuc;

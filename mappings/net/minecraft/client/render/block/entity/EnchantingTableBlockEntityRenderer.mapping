@@ -1,3 +1,0 @@
-CLASS dmu net/minecraft/client/render/block/entity/EnchantingTableBlockEntityRenderer
-	FIELD c BOOK_TEX Lqt;
-	FIELD d book Ldeh;

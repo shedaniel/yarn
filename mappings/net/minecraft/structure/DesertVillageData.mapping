@@ -1,2 +1,0 @@
-CLASS cax net/minecraft/structure/DesertVillageData
-	METHOD a initialize ()V

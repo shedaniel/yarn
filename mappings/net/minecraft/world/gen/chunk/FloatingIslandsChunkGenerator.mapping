@@ -1,2 +1,0 @@
-CLASS bze net/minecraft/world/gen/chunk/FloatingIslandsChunkGenerator
-	FIELD h center Lev;

@@ -1,5 +1,0 @@
-CLASS ahk net/minecraft/util/Nameable
-	METHOD O getName ()Ljn;
-	METHOD P hasCustomName ()Z
-	METHOD Q getCustomName ()Ljn;
-	METHOD d getDisplayName ()Ljn;

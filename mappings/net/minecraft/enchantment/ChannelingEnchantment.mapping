@@ -1,4 +1,0 @@
-CLASS bge net/minecraft/enchantment/ChannelingEnchantment
-	METHOD <init> (Lbfn$a;[Laiq;)V
-		ARG 1 weight
-		ARG 2 slotTypes

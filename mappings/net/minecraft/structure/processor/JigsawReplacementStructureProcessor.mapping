@@ -1,2 +1,0 @@
-CLASS cjc net/minecraft/structure/processor/JigsawReplacementStructureProcessor
-	FIELD a INSTANCE Lcjc;

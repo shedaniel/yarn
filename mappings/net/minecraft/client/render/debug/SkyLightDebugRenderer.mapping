@@ -1,2 +1,0 @@
-CLASS doc net/minecraft/client/render/debug/SkyLightDebugRenderer
-	FIELD a client Lcvo;

@@ -1,4 +1,0 @@
-CLASS asv net/minecraft/entity/boss/dragon/phase/SittingAttackingPhase
-	FIELD b ticks I
-	METHOD <init> (Lask;)V
-		ARG 1 dragon

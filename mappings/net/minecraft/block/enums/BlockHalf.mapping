@@ -1,2 +1,0 @@
-CLASS bwn net/minecraft/block/enums/BlockHalf
-	FIELD c name Ljava/lang/String;

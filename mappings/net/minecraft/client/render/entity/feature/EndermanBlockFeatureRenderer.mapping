@@ -1,3 +1,0 @@
-CLASS dso net/minecraft/client/render/entity/feature/EndermanBlockFeatureRenderer
-	METHOD <init> (Ldrd;)V
-		ARG 1 context

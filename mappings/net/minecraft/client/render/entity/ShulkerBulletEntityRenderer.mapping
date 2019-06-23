@@ -1,3 +1,0 @@
-CLASS drg net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
-	FIELD a SKIN Lqt;
-	FIELD f model Ldge;

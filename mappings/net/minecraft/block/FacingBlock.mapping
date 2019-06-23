@@ -1,4 +1,0 @@
-CLASS bnz net/minecraft/block/FacingBlock
-	FIELD a FACING Lbwj;
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

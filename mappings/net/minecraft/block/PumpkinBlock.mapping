@@ -1,3 +1,0 @@
-CLASS bqq net/minecraft/block/PumpkinBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

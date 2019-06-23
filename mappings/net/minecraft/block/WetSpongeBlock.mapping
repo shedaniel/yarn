@@ -1,3 +1,0 @@
-CLASS btc net/minecraft/block/WetSpongeBlock
-	METHOD <init> (Lbmq$c;)V
-		ARG 1 settings

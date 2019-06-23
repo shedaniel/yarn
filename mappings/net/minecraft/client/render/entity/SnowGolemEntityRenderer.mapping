@@ -1,2 +1,0 @@
-CLASS drl net/minecraft/client/render/entity/SnowGolemEntityRenderer
-	FIELD a SKIN Lqt;

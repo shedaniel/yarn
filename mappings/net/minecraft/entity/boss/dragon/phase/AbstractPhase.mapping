@@ -1,4 +1,0 @@
-CLASS asm net/minecraft/entity/boss/dragon/phase/AbstractPhase
-	FIELD a dragon Lask;
-	METHOD <init> (Lask;)V
-		ARG 1 dragon

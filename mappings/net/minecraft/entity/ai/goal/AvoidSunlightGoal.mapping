@@ -1,4 +1,0 @@
-CLASS aoc net/minecraft/entity/ai/goal/AvoidSunlightGoal
-	FIELD a mob Lajb;
-	METHOD <init> (Lajb;)V
-		ARG 1 mob

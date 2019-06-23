@@ -1,2 +1,0 @@
-CLASS dsc net/minecraft/client/render/entity/VindicatorEntityRenderer
-	FIELD a SKIN Lqt;

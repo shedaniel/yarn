@@ -1,3 +1,0 @@
-CLASS pj net/minecraft/server/network/packet/PlayerInteractItemC2SPacket
-	FIELD a hand Lahf;
-	METHOD b getHand ()Lahf;

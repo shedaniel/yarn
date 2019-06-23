@@ -1,5 +1,0 @@
-CLASS cb net/minecraft/command/CommandException
-	FIELD a message Ljn;
-	METHOD <init> (Ljn;)V
-		ARG 1 message
-	METHOD a getMessageText ()Ljn;

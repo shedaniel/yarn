@@ -1,3 +1,0 @@
-CLASS ov net/minecraft/server/network/packet/ResourcePackStatusC2SPacket
-	CLASS a Status
-	FIELD a status Lov$a;

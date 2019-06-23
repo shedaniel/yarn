@@ -1,3 +1,0 @@
-CLASS lv net/minecraft/client/network/packet/OpenWrittenBookS2CPacket
-	FIELD a hand Lahf;
-	METHOD b getHand ()Lahf;

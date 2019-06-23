@@ -1,4 +1,0 @@
-CLASS anr net/minecraft/entity/ai/goal/LongDoorInteractGoal
-	FIELD b ticksLeft I
-	METHOD <init> (Laiv;Z)V
-		ARG 1 mob

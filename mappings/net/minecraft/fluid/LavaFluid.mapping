@@ -1,3 +1,0 @@
-CLASS cli net/minecraft/fluid/LavaFluid
-	CLASS a Flowing
-	CLASS b Still

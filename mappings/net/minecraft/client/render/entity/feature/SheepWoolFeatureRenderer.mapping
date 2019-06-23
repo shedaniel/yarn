@@ -1,5 +1,0 @@
-CLASS dtl net/minecraft/client/render/entity/feature/SheepWoolFeatureRenderer
-	FIELD a SKIN Lqt;
-	FIELD b model Ldgb;
-	METHOD <init> (Ldrd;)V
-		ARG 1 context
