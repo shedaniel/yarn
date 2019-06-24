@@ -74,6 +74,7 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD ay BLOCK_DIAMOND Luu;
 	FIELD az WORKBENCH Luu;
 	FIELD ba FENCE Luu;
+	FIELD bn id I
 	FIELD u STONE Luu;
 	FIELD v GRASS Lwp;
 	FIELD w DIRT Luu;

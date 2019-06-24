@@ -1,0 +1,11 @@
+CLASS gm net/minecraft/item/ItemType
+	FIELD aX CAKE Lgm;
+	FIELD b rand Ljava/util/Random;
+	FIELD ba COOKIE Lgm;
+	FIELD bd RECORD_13 Lgm;
+	FIELD be RECORD_CAT Lgm;
+	FIELD d SHOVEL_IRON Lgm;
+	FIELD e PICKAXE_IRON Lgm;
+	FIELD f HATCHET_IRON Lgm;
+	METHOD a interact (Liz;Lgs;Lfd;IIII)Z
+	METHOD a setName (Ljava/lang/String;)Lgm;

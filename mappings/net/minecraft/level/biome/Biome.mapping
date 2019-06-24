@@ -22,7 +22,7 @@ CLASS kd net/minecraft/level/biome/Biome
 	FIELD w precipitates Z
 	FIELD x biomes [Lkd;
 	METHOD a createBiomeArray ()V
-	METHOD a getSkyColourIThinkHelp (F)I
+	METHOD a getSkyColour (F)I
 		ARG 1 temperature
 	METHOD a getBiome (FF)Lkd;
 		ARG 0 x
