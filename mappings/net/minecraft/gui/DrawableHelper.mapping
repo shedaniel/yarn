@@ -1,0 +1,15 @@
+CLASS ub net/minecraft/gui/DrawableHelper
+	FIELD k zOffset F
+	METHOD a fillGredient (IIIIII)V
+	METHOD a drawTextWithShadowCentered (Lsj;Ljava/lang/String;III)V
+		ARG 1 textManager
+		ARG 2 text
+		ARG 3 x
+		ARG 4 y
+		ARG 5 color
+	METHOD b drawTextWithShadow (Lsj;Ljava/lang/String;III)V
+		ARG 1 textManager
+		ARG 2 text
+		ARG 3 x
+		ARG 4 y
+		ARG 5 color

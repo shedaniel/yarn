@@ -81,6 +81,7 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD x STONEBRICK Luu;
 	FIELD y WOOD Luu;
 	FIELD z SAPLING Luu;
+	FIELD a name Ljava/lang/String;
 	METHOD a (Lfd;IIIII)V
 		ARG 2 x
 		ARG 3 y
@@ -89,3 +90,4 @@ CLASS uu net/minecraft/tile/Tile
 	METHOD a setName (Ljava/lang/String;)Luu;
 	METHOD b (Lfd;III)V
 		ARG 1 level
+	METHOD n getName ()Ljava/lang/String;

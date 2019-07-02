@@ -1,2 +1,0 @@
-CLASS hk net/minecraft/recipe/ShaplessRecipes
-	METHOD a addRecipe (Liz;[Ljava/lang/Object;)V

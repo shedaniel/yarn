@@ -22,7 +22,7 @@ plugins {
 	id 'maven-publish'
 }
 
-def minecraft_version = "1.2.5"
+def minecraft_version = "b1.7.3"
 
 def ENV = System.getenv()
 // Fetch build number from Jenkins
@@ -56,7 +56,7 @@ dependencies {
 def mappingsDir = file("mappings")
 def cacheFilesMinecraft = file(".gradle/minecraft")
 def tempDir = file(".gradle/temp")
-def mergedFile = file("${minecraft_version}-merged.jar")
+//def mergedFile = file("${minecraft_version}-merged.jar")
 def intermediaryJar = file("${minecraft_version}-intermediary.jar")
 def namedJar = file("${minecraft_version}-named.jar")
 def versionFile = new File(cacheFilesMinecraft, "${minecraft_version}.json")
@@ -78,6 +78,8 @@ import net.fabricmc.tinyremapper.TinyUtils
 import net.fabricmc.weave.CommandFindMappingErrors
 import net.fabricmc.weave.CommandTinyify
 import groovy.io.FileType
+
+import java.util.concurrent.TimeUnit
 import java.util.zip.GZIPOutputStream
 
 boolean validateChecksum(File file, String checksum) {
@@ -96,10 +98,21 @@ task downloadVersionsManifest {
 	//inputs.property "mc_ver", minecraft_version
 	inputs.property "currenttime", new Date()
 	def manifestFile = new File(cacheFilesMinecraft, "version_manifest.json")
+	logger.info(manifestFile.absolutePath)
 	outputs.file(manifestFile)
 	doLast {
 		logger.lifecycle(":downloading minecraft versions manifest")
-		FileUtils.copyURLToFile(new URL("https://launchermeta.mojang.com/mc/game/version_manifest.json"), manifestFile)
+		if (manifestFile.exists()) {
+			if (FileUtils.isFileOlder(manifestFile, System.currentTimeMillis() - TimeUnit.MILLISECONDS.convert(1, TimeUnit.DAYS))) {
+				logger.info("Manifest was more than than 1 day old, redownloading.")
+				FileUtils.copyURLToFile(new URL("https://launchermeta.mojang.com/mc/game/version_manifest.json"), manifestFile)
+			} else {
+				logger.info("Manifest already existed, and is up to date enough.")
+			}
+		} else {
+			logger.info("Manifest did not exist, downloading.")
+			FileUtils.copyURLToFile(new URL("https://launchermeta.mojang.com/mc/game/version_manifest.json"), manifestFile)
+		}
 	}
 }
 
@@ -142,7 +155,8 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 	outputs.upToDateWhen {
 		def version = new JsonSlurper().parseText(FileUtils.readFileToString(versionFile))
-		return clientJar.exists() && serverJar.exists() && validateChecksum(clientJar, version.downloads.client.sha1) && validateChecksum(serverJar, version.downloads.server.sha1)
+//		return clientJar.exists() && serverJar.exists() && validateChecksum(clientJar, version.downloads.client.sha1) && validateChecksum(serverJar, version.downloads.server.sha1)
+		return clientJar.exists() && validateChecksum(clientJar, version.downloads.client.sha1)
 	}
 
 	doLast {
@@ -160,10 +174,10 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 			FileUtils.copyURLToFile(new URL(version.downloads.client.url), clientJar)
 		}
 
-		if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
-			logger.lifecycle(":downloading minecraft server")
-			FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
-		}
+//		if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
+//			logger.lifecycle(":downloading minecraft 1server")
+//			FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
+//		}
 	}
 }
 
