@@ -16,7 +16,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD aT FISH_COOKED Lgm;
 	FIELD aU DYE_POWDER Lgm;
 	FIELD aV BONE Lgm;
-	FIELD aW SUGER Lgm;
+	FIELD aW SUGAR Lgm;
 	FIELD aX CAKE Lgm;
 	FIELD aY BED Lgm;
 	FIELD aZ DIODE Lgm;

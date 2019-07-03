@@ -1,4 +1,4 @@
-CLASS iz net/minecraft/sortme/ItemStack
+CLASS iz net/minecraft/sortme/Item
 	FIELD a count I
 	FIELD c id I
 	FIELD d damage I
