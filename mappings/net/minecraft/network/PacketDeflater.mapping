@@ -1,5 +1,0 @@
-CLASS ip net/minecraft/network/PacketDeflater
-	FIELD a deflateBuffer [B
-	FIELD b deflater Ljava/util/zip/Deflater;
-	FIELD c minCompressedSize I
-	METHOD a setMinCompressedSize (I)V

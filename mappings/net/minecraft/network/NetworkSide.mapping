@@ -1,3 +1,0 @@
-CLASS jr net/minecraft/network/NetworkSide
-	FIELD a SERVER Ljr;
-	FIELD b CLIENT Ljr;
