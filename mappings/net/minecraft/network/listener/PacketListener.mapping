@@ -1,3 +1,0 @@
-CLASS iv net/minecraft/network/listener/PacketListener
-	METHOD a onConnectionLost (Ljc;)V
-		ARG 1 disconnectReason
