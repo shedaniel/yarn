@@ -1,21 +1,8 @@
-CLASS bhn net/minecraft/block/Block
+CLASS bhn net/minecraft/block/Blockard
 	CLASS bhn$a NeighborGroup
 		FIELD a self Lbqk;
 		FIELD b other Lbqk;
 		FIELD c facing Ley;
-		METHOD <init> (Lbqk;Lbqk;Ley;)V
-			ARG 1 self
-			ARG 2 other
-			ARG 3 facing
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 1 o
-	CLASS bhn$b OffsetType
-		FIELD a NONE Lbhn$b;
-		FIELD b XZ Lbhn$b;
-		FIELD c XYZ Lbhn$b;
-	CLASS bhn$c Settings
-		FIELD a material Lcga;
-		FIELD b materialColor Lcgb;
 		FIELD c collidable Z
 		FIELD d soundGroup Lbmq;
 		FIELD e luminance I
