@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2248 net/minecraft/block/Block
+CLASS net/minecraft/class_2248 net/minecraft/block/asdf
 	CLASS class_2249 NeighborGroup
 		FIELD field_10652 self Lnet/minecraft/class_2680;
 		FIELD field_10653 facing Lnet/minecraft/class_2350;
