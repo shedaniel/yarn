@@ -5,10 +5,10 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 			ARG 1 self
 			ARG 2 other
 			ARG 3 facing
-	CLASS class_2250 OffsetTypist
+	CLASS class_2250 OffsetType
 	FIELD field_20720 opaque Z
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD method_16361 topCoversMediumSquare (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z
+	METHOD method_16361 goodnamenow (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z
 		ARG 0 world
 		ARG 1 pos
