@@ -1,16 +1,17 @@
-CLASS net/minecraft/class_2199 net/minecraft/block/AnvilBlock
-	FIELD field_17349 CONTAINER_NAME Lnet/minecraft/class_2588;
-	FIELD field_9882 BASE_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9883 FACING Lnet/minecraft/class_2753;
-	FIELD field_9884 X_FACE_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9885 X_STEP_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9886 Z_FACE_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9887 X_AXIS_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9888 X_STEM_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9889 Z_STEM_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9891 Z_STEP_SHAPE Lnet/minecraft/class_265;
-	FIELD field_9892 Z_AXIS_SHAPE Lnet/minecraft/class_265;
+CLASS net/minecraft/class_2248 net/minecraft/block/AnvilBlock
+	CLASS class_2250 OffsetType
+		CLASS class_100005 complexInner
+			METHOD method_100006 complexMethod ()V
+				ARG 0 test
+	FIELD field_20720 opaque Z
+	FIELD field_100004 testField I
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD method_9346 getLandingState (Lnet/minecraft/class_2680;)Lnet/minecraft/class_2680;
-		ARG 0 fallingState
+	METHOD method_16361 topCoversMediumSquare (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z
+		ARG 0 world
+		ARG 1 pos
+	METHOD method_100001 testInnerDescriptor (Lnet/minecraft/class_2248$class_2250;)V
+	METHOD method_100002 testGenericArg (Ljava/lang/Object;)V
+	METHOD method_100003 testOverload1 ()V
+	METHOD method_100003 testOverload2 (I)V
+	METHOD method_100007 ()V
