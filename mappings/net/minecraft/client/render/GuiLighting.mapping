@@ -1,9 +1,5 @@
-CLASS col net/minecraft/client/render/GuiLighting
-	FIELD a buffer Ljava/nio/FloatBuffer;
-	FIELD b towardLight Lcpg;
-	FIELD c oppositeLight Lcpg;
-	METHOD a disable ()V
-	METHOD a createNormalVector (FFF)Lcpg;
-	METHOD a singletonBuffer (FFFF)Ljava/nio/FloatBuffer;
-	METHOD b enable ()V
-	METHOD c enableForItems ()V
+CLASS net/minecraft/class_308 net/minecraft/client/render/GuiLighting
+	METHOD method_1450 disable ()V
+	METHOD method_1452 enable (Lnet/minecraft/class_1159;)V
+	METHOD method_1453 enableForItems (Lnet/minecraft/class_1159;)V
+	METHOD method_22890 enable ()V

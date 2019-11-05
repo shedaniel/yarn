@@ -1,5 +1,7 @@
-CLASS bz net/minecraft/server/command/CommandOutput
-	METHOD G_ shouldBroadcastConsoleToOps ()Z
-	METHOD a sendCommandFeedback ()Z
-	METHOD a appendCommandFeedback (Ljc;)V
-	METHOD b shouldTrackOutput ()Z
+CLASS net/minecraft/class_2165 net/minecraft/server/command/CommandOutput
+	FIELD field_17395 DUMMY Lnet/minecraft/class_2165;
+	METHOD method_9200 sendCommandFeedback ()Z
+	METHOD method_9201 shouldBroadcastConsoleToOps ()Z
+	METHOD method_9202 shouldTrackOutput ()Z
+	METHOD method_9203 sendMessage (Lnet/minecraft/class_2561;)V
+		ARG 1 message

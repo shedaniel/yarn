@@ -1,2 +1,0 @@
-CLASS alp net/minecraft/entity/ai/pathing/PathingCoordinator
-	FIELD a entityPathings Ljava/util/List;

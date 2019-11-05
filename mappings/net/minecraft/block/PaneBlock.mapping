@@ -1,6 +1,5 @@
-CLASS bkh net/minecraft/block/PaneBlock
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2389 net/minecraft/block/PaneBlock
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a connectsTo (Lbqk;Z)Z
-	METHOD f neverConnectsTo (Lbhn;)Z
-		ARG 0 block
+	METHOD method_10281 connectsTo (Lnet/minecraft/class_2680;Z)Z
+		ARG 1 state

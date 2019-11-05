@@ -1,2 +1,2 @@
-CLASS dkz net/minecraft/client/render/entity/ParrotEntityRenderer
-	FIELD a TEXTURES [Lqd;
+CLASS net/minecraft/class_930 net/minecraft/client/render/entity/ParrotEntityRenderer
+	FIELD field_4754 SKINS [Lnet/minecraft/class_2960;

@@ -1,2 +1,0 @@
-CLASS dqn net/minecraft/client/audio/EntityTrackingSoundInstance
-	FIELD n entity Lahc;

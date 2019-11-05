@@ -1,1 +1,2 @@
-CLASS dmg net/minecraft/client/render/entity/VindicatorEntityRenderer
+CLASS net/minecraft/class_962 net/minecraft/client/render/entity/VindicatorEntityRenderer
+	FIELD field_4804 SKIN Lnet/minecraft/class_2960;

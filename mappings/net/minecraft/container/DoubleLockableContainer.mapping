@@ -1,4 +1,0 @@
-CLASS afp net/minecraft/container/DoubleLockableContainer
-	FIELD a first Lafq;
-	FIELD b second Lafq;
-	METHOD a isPart (Lafq;)Z
