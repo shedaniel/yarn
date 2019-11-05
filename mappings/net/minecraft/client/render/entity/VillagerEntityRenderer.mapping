@@ -1,2 +1,2 @@
-CLASS dmf net/minecraft/client/render/entity/VillagerEntityRenderer
-	FIELD a VILLAGER_SKIN Lqd;
+CLASS net/minecraft/class_963 net/minecraft/client/render/entity/VillagerEntityRenderer
+	FIELD field_4807 VILLAGER_SKIN Lnet/minecraft/class_2960;

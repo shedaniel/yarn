@@ -1,3 +1,0 @@
-CLASS dmz net/minecraft/client/render/entity/feature/EnderDragonDeathFeatureRenderer
-	METHOD <init> (Ldlh;)V
-		ARG 1 context

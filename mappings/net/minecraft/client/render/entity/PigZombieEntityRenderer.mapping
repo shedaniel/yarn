@@ -1,2 +1,0 @@
-CLASS dlc net/minecraft/client/render/entity/PigZombieEntityRenderer
-	FIELD a SKIN Lqd;

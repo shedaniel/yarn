@@ -1,3 +1,0 @@
-CLASS dmk net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
-	FIELD a INVINCIBLE_SKIN Lqd;
-	FIELD f SKIN Lqd;

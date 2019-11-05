@@ -1,3 +1,0 @@
-CLASS ahr net/minecraft/entity/passive/OwnableEntity
-	METHOD A_ getOwner ()Lahc;
-	METHOD z_ getOwnerUuid ()Ljava/util/UUID;

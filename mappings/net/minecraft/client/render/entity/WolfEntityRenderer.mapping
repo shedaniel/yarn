@@ -1,4 +1,4 @@
-CLASS dml net/minecraft/client/render/entity/WolfEntityRenderer
-	FIELD a WILD_SKIN Lqd;
-	FIELD j TAMED_SKIN Lqd;
-	FIELD k ANGRY_SKIN Lqd;
+CLASS net/minecraft/class_969 net/minecraft/client/render/entity/WolfEntityRenderer
+	FIELD field_4821 WILD_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4822 TAMED_SKIN Lnet/minecraft/class_2960;
+	FIELD field_4823 ANGRY_SKIN Lnet/minecraft/class_2960;

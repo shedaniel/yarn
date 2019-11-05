@@ -1,23 +1,7 @@
-CLASS dhb net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
-	CLASS dhb$a CageModel
-		FIELD a cuboid Ldbu;
-		METHOD a render (FFFFFF)V
-	CLASS dhb$b EyeModel
-		FIELD a cuboid Ldbu;
-		METHOD a render (FFFFFF)V
-	CLASS dhb$c BaseModel
-		FIELD a cuboid Ldbu;
-		METHOD a render (FFFFFF)V
-	CLASS dhb$d WindModel
-		FIELD a cuboids [Ldbu;
-		METHOD a render (FFFFFF)V
-	FIELD c BASE_TEX Lqd;
-	FIELD d CAGE_TEX Lqd;
-	FIELD e WIND_TEX Lqd;
-	FIELD f WIND_VERTICAL_TEX Lqd;
-	FIELD g OPEN_EYE_TEX Lqd;
-	FIELD h CLOSED_EYE_TEX Lqd;
-	FIELD i baseModel Ldhb$c;
-	FIELD j cageModel Ldhb$a;
-	FIELD k windModel Ldhb$d;
-	FIELD l eyeModel Ldhb$b;
+CLASS net/minecraft/class_829 net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
+	FIELD field_4371 WIND_VERTICAL_TEX Lnet/minecraft/class_2960;
+	FIELD field_4373 WIND_TEX Lnet/minecraft/class_2960;
+	FIELD field_4377 BASE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4378 CAGE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4379 OPEN_EYE_TEX Lnet/minecraft/class_2960;
+	FIELD field_4380 CLOSED_EYE_TEX Lnet/minecraft/class_2960;

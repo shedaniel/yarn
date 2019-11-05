@@ -1,3 +1,0 @@
-CLASS drt net/minecraft/client/audio/SoundContainer
-	METHOD e getWeight ()I
-	METHOD k getSound ()Ljava/lang/Object;

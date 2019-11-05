@@ -1,5 +1,5 @@
-CLASS auj net/minecraft/inventory/EnderChestInventory
-	FIELD a currentBlockEntity Lbpa;
-	METHOD a setCurrentBlockEntity (Lbpa;)V
-	METHOD a readTags (Lhx;)V
-	METHOD f getTags ()Lhx;
+CLASS net/minecraft/class_1730 net/minecraft/inventory/EnderChestInventory
+	FIELD field_7864 currentBlockEntity Lnet/minecraft/class_2611;
+	METHOD method_7659 readTags (Lnet/minecraft/class_2499;)V
+	METHOD method_7660 getTags ()Lnet/minecraft/class_2499;
+	METHOD method_7661 setCurrentBlockEntity (Lnet/minecraft/class_2611;)V

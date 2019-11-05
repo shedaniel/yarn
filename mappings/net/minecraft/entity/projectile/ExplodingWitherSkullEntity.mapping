@@ -1,3 +1,0 @@
-CLASS asl net/minecraft/entity/projectile/ExplodingWitherSkullEntity
-	FIELD f CHARGED Lps;
-	METHOD a setCharged (Z)V

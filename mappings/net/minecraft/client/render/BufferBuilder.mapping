@@ -1,110 +1,54 @@
-CLASS cpi net/minecraft/client/render/BufferBuilder
-	CLASS cpi$a State
-		FIELD b rawBuffer [I
-		FIELD c format Lcpo;
-		METHOD a getRawBuffer ()[I
-		METHOD b getVertexCount ()I
-		METHOD c getFormat ()Lcpo;
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b bufByte Ljava/nio/ByteBuffer;
-	FIELD c bufInt Ljava/nio/IntBuffer;
-	FIELD d bufShort Ljava/nio/ShortBuffer;
-	FIELD e bufFloat Ljava/nio/FloatBuffer;
-	FIELD f vertexes I
-	FIELD g currentElement Lcpp;
-	FIELD h currentElementId I
-	FIELD i colorDisabled Z
-	FIELD j drawMode I
-	FIELD k offsetX D
-	FIELD l offsetY D
-	FIELD m offsetZ D
-	FIELD n format Lcpo;
-	FIELD o building Z
+CLASS net/minecraft/class_287 net/minecraft/client/render/BufferBuilder
+	CLASS class_288 State
+		FIELD field_1570 format Lnet/minecraft/class_293;
+		FIELD field_20885 buffer Ljava/nio/ByteBuffer;
+	CLASS class_4574 DrawArrayParameters
+		FIELD field_20779 vertexFormat Lnet/minecraft/class_293;
+		FIELD field_20780 count I
+		FIELD field_20781 mode I
+		METHOD <init> (Lnet/minecraft/class_293;II)V
+			ARG 1 vertexFormat
+			ARG 2 count
+			ARG 3 mode
+		METHOD method_22634 getVertexFormat ()Lnet/minecraft/class_293;
+		METHOD method_22635 getCount ()I
+		METHOD method_22636 getMode ()I
+	FIELD field_1553 currentElementId I
+	FIELD field_1554 vertexCount I
+	FIELD field_1555 buffer Ljava/nio/ByteBuffer;
+	FIELD field_1556 building Z
+	FIELD field_1557 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_1558 currentElement Lnet/minecraft/class_296;
+	FIELD field_1565 format Lnet/minecraft/class_293;
+	FIELD field_1567 drawMode I
+	FIELD field_20774 parameters Ljava/util/List;
+	FIELD field_20775 lastParameterIndex I
+	FIELD field_20776 buildStart I
+	FIELD field_20777 nextDrawStart I
+	FIELD field_20884 elementOffset I
 	METHOD <init> (I)V
-		ARG 1 size
-	METHOD a toBufferState ()Lcpi$a;
-	METHOD a texture (DD)Lcpi;
-		ARG 1 u
-		ARG 3 v
-	METHOD a postPosition (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD a sortQuads (FFF)V
-	METHOD a color (FFFF)Lcpi;
-		ARG 1 red
-		ARG 2 green
-		ARG 3 blue
-	METHOD a multiplyColor (FFFI)V
-		ARG 1 red
-		ARG 2 green
-		ARG 3 blue
-		ARG 4 index
-	METHOD a setQuadColor (I)V
-		ARG 1 color
-	METHOD a texture (II)Lcpi;
-		ARG 1 u
-		ARG 2 v
-	METHOD a clamp (III)I
-		ARG 0 value
-		ARG 1 min
-		ARG 2 max
-	METHOD a brightness (IIII)V
-	METHOD a begin (ILcpo;)V
-		ARG 1 drawMode
-	METHOD a restoreState (Lcpi$a;)V
-	METHOD a getDistanceSq (Ljava/nio/FloatBuffer;FFFII)F
+		ARG 1 initialCapacity
+	METHOD method_1319 getDistanceSq (Ljava/nio/FloatBuffer;FFFII)F
 		ARG 0 buffer
-	METHOD a putVertexData ([I)V
-	METHOD b clear ()V
-	METHOD b vertex (DDD)Lcpi;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD b postNormal (FFF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b setColor (FFFI)V
-		ARG 1 red
-		ARG 2 green
-		ARG 3 blue
-		ARG 4 index
-	METHOD b grow (I)V
+	METHOD method_1324 restoreState (Lnet/minecraft/class_287$class_288;)V
+	METHOD method_1326 end ()V
+	METHOD method_1328 begin (ILnet/minecraft/class_293;)V
+		ARG 1 drawMode
+		ARG 2 format
+	METHOD method_1334 toBufferState ()Lnet/minecraft/class_287$class_288;
+	METHOD method_1335 grow (I)V
 		ARG 1 size
-	METHOD b setColor (II)V
-		ARG 1 color
-		ARG 2 index
-	METHOD b color (IIII)Lcpi;
-		ARG 1 red
-		ARG 2 green
-		ARG 3 blue
-	METHOD c disableColor ()V
-	METHOD c setOffset (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD c normal (FFF)Lcpi;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD c roundBufferSize (I)I
+	METHOD method_1341 sortQuads (FFF)V
+		ARG 1 cameraX
+		ARG 2 cameraY
+		ARG 3 cameraZ
+	METHOD method_1343 clear ()V
+	METHOD method_16005 roundBufferSize (I)I
 		ARG 0 amount
-	METHOD c setColor (IIII)V
-		ARG 1 colorIndex
-		ARG 2 red
-		ARG 3 blue
-		ARG 4 index
-	METHOD d next ()V
-	METHOD d setQuadColor (FFF)V
-		ARG 1 red
-		ARG 2 green
-		ARG 3 blue
-	METHOD d getColorIndex (I)I
-	METHOD e end ()V
-	METHOD f getByteBuffer ()Ljava/nio/ByteBuffer;
-	METHOD g getVertexFormat ()Lcpo;
-	METHOD h getVertexCount ()I
-	METHOD i getDrawMode ()I
-	METHOD j getCurrentSize ()I
-	METHOD k nextElement ()V
+	METHOD method_22632 popData ()Lcom/mojang/datafixers/util/Pair;
+	METHOD method_22892 grow ()V
+	METHOD method_22893 isBuilding ()Z
+	METHOD method_23477 reset ()V

@@ -1,2 +1,2 @@
-CLASS axq net/minecraft/util/Rarity
-	FIELD e formatting La;
+CLASS net/minecraft/class_1814 net/minecraft/util/Rarity
+	FIELD field_8908 formatting Lnet/minecraft/class_124;

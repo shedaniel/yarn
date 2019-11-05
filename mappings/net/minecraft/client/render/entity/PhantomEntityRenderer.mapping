@@ -1,1 +1,2 @@
-CLASS dla net/minecraft/client/render/entity/PhantomEntityRenderer
+CLASS net/minecraft/class_933 net/minecraft/client/render/entity/PhantomEntityRenderer
+	FIELD field_4756 SKIN Lnet/minecraft/class_2960;

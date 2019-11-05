@@ -1,6 +1,8 @@
-CLASS brn net/minecraft/state/property/Property
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a getValueAsString (Ljava/lang/Comparable;)Ljava/lang/String;
-	METHOD b getValueClass ()Ljava/lang/Class;
-	METHOD b getValue (Ljava/lang/String;)Ljava/util/Optional;
-	METHOD d getValues ()Ljava/util/Collection;
+CLASS net/minecraft/class_2769 net/minecraft/state/property/Property
+	METHOD method_11898 getValues ()Ljava/util/Collection;
+	METHOD method_11899 getName ()Ljava/lang/String;
+	METHOD method_11900 parse (Ljava/lang/String;)Ljava/util/Optional;
+		ARG 1 name
+	METHOD method_11901 name (Ljava/lang/Comparable;)Ljava/lang/String;
+		ARG 1 value
+	METHOD method_11902 getType ()Ljava/lang/Class;

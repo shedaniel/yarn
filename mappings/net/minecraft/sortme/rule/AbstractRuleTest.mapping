@@ -1,3 +1,0 @@
-CLASS cdz net/minecraft/sortme/rule/AbstractRuleTest
-	METHOD a getRuleTest ()Lcea;
-	METHOD a test (Lbqk;Ljava/util/Random;)Z

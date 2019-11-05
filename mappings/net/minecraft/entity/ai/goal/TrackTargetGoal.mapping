@@ -1,23 +1,24 @@
-CLASS alk net/minecraft/entity/ai/goal/TrackTargetGoal
-	FIELD a checkCanNavigate Z
-	FIELD b canNavigateFlag I
-	FIELD c checkCanNavigateCooldown I
-	FIELD d timeWithoutVisibility I
-	FIELD e entity Lahs;
-	FIELD f checkVisibility Z
-	FIELD h maxTimeWithoutVisibility I
-	METHOD <init> (Lahs;Z)V
-		ARG 1 entity
-	METHOD <init> (Lahs;ZZ)V
-		ARG 1 entity
+CLASS net/minecraft/class_1405 net/minecraft/entity/ai/goal/TrackTargetGoal
+	FIELD field_6657 maxTimeWithoutVisibility I
+	FIELD field_6658 checkVisibility Z
+	FIELD field_6659 timeWithoutVisibility I
+	FIELD field_6660 mob Lnet/minecraft/class_1308;
+	FIELD field_6661 checkCanNavigateCooldown I
+	FIELD field_6662 canNavigateFlag I
+	FIELD field_6663 checkCanNavigate Z
+	FIELD field_6664 target Lnet/minecraft/class_1309;
+	METHOD <init> (Lnet/minecraft/class_1308;Z)V
+		ARG 1 mob
 		ARG 2 checkVisibility
-	METHOD a canNavigateToEntity (Lahl;)Z
-	METHOD a canTrack (Lahl;Z)Z
+	METHOD <init> (Lnet/minecraft/class_1308;ZZ)V
+		ARG 1 mob
+		ARG 2 checkVisibility
+		ARG 3 checkNavigable
+	METHOD method_6326 getFollowRange ()D
+	METHOD method_6328 canTrack (Lnet/minecraft/class_1309;Lnet/minecraft/class_4051;)Z
 		ARG 1 target
-	METHOD a canTrack (Lahm;Lahl;ZZ)Z
-		ARG 0 entity
-		ARG 1 target
-		ARG 2 requireVulnerableTarget
-		ARG 3 checkVisibility
-	METHOD b setMaxTimeWithoutVisibility (I)Lalk;
-	METHOD j getFollowRange ()D
+		ARG 2 targetPredicate
+	METHOD method_6329 canNavigateToEntity (Lnet/minecraft/class_1309;)Z
+		ARG 1 entity
+	METHOD method_6330 setMaxTimeWithoutVisibility (I)Lnet/minecraft/class_1405;
+		ARG 1 time
