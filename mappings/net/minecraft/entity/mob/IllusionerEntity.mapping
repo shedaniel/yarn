@@ -1,4 +1,4 @@
-CLASS aqa net/minecraft/entity/mob/IllusionerEntity
-	CLASS aqa$a BlindTargetGoal
-		FIELD e targetId I
-	CLASS aqa$b GiveInvisibilityGoal
+CLASS net/minecraft/class_1581 net/minecraft/entity/mob/IllusionerEntity
+	CLASS class_1582 BlindTargetGoal
+		FIELD field_7298 targetId I
+	CLASS class_1583 GiveInvisibilityGoal

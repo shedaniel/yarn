@@ -1,3 +1,2 @@
-CLASS dbb net/minecraft/client/render/entity/model/TridentEntityModel
-	FIELD a TEXTURE Lqd;
-	METHOD a renderItem ()V
+CLASS net/minecraft/class_613 net/minecraft/client/render/entity/model/TridentEntityModel
+	FIELD field_3592 TEXTURE Lnet/minecraft/class_2960;

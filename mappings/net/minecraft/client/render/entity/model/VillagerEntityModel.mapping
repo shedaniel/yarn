@@ -1,3 +1,0 @@
-CLASS dbi net/minecraft/client/render/entity/model/VillagerEntityModel
-	FIELD a head Ldbu;
-	FIELD l nose Ldbu;

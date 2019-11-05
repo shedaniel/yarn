@@ -1,2 +1,0 @@
-CLASS djy net/minecraft/client/render/entity/FishHookEntityRenderer
-	FIELD a TEX Lqd;

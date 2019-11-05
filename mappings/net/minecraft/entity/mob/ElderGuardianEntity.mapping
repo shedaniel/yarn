@@ -1,1 +1,2 @@
-CLASS apq net/minecraft/entity/mob/ElderGuardianEntity
+CLASS net/minecraft/class_1550 net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD method_7010 straightenTail ()V

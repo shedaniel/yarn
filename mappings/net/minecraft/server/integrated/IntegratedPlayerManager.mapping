@@ -1,3 +1,2 @@
-CLASS drh net/minecraft/server/integrated/IntegratedPlayerManager
-	FIELD f userData Lhr;
-	METHOD b getServer ()Ldri;
+CLASS net/minecraft/class_1130 net/minecraft/server/integrated/IntegratedPlayerManager
+	FIELD field_5514 userData Lnet/minecraft/class_2487;

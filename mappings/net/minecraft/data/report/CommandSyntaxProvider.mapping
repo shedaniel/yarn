@@ -1,2 +1,2 @@
-CLASS gj net/minecraft/data/report/CommandSyntaxProvider
-	FIELD c root Lfy;
+CLASS net/minecraft/class_2425 net/minecraft/data/report/CommandSyntaxProvider
+	FIELD field_11321 root Lnet/minecraft/class_2403;

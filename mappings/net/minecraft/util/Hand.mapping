@@ -1,3 +1,1 @@
-CLASS afw net/minecraft/util/Hand
-	FIELD a MAIN Lafw;
-	FIELD b OFF Lafw;
+CLASS net/minecraft/class_1268 net/minecraft/util/Hand

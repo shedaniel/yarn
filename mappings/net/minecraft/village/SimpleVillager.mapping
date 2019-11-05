@@ -1,4 +1,0 @@
-CLASS aqx net/minecraft/village/SimpleVillager
-	FIELD a villagerInventory Laug;
-	FIELD b player Larj;
-	FIELD c recipeList Lbbq;

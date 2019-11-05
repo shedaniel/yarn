@@ -1,3 +1,0 @@
-CLASS clo net/minecraft/world/loot/condition/DamageSourcePropertiesLootCondition
-	CLASS clo$a Factory
-	FIELD a predicate Laj;

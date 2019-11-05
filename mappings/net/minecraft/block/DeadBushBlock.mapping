@@ -1,4 +1,4 @@
-CLASS bit net/minecraft/block/DeadBushBlock
-	FIELD a SHAPE Lcnl;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2311 net/minecraft/block/DeadBushBlock
+	FIELD field_10910 SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

@@ -1,3 +1,0 @@
-CLASS dqp net/minecraft/client/audio/RidingMinecartSoundInstance
-	FIELD n minecart Lasq;
-	FIELD o distance F

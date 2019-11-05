@@ -1,11 +1,6 @@
-CLASS dha net/minecraft/client/render/block/entity/ChestBlockEntityRenderer
-	FIELD c TRAPPED_DOUBLE_TEX Lqd;
-	FIELD d CHRISTMAS_DOUBLE_TEX Lqd;
-	FIELD e NORMAL_DOUBLE_TEX Lqd;
-	FIELD f TRAPPED_TEX Lqd;
-	FIELD g CHRISTMAS_TEX Lqd;
-	FIELD h NORMAL_TEX Lqd;
-	FIELD i ENDER_TEX Lqd;
-	FIELD j modelSingleChest Lcyx;
-	FIELD k modelDoubleChest Lcyx;
-	FIELD l isChristmas Z
+CLASS net/minecraft/class_826 net/minecraft/client/render/block/entity/ChestBlockEntityRenderer
+	FIELD field_4357 TRAPPED_TEX Lnet/minecraft/class_2960;
+	FIELD field_4363 CHRISTMAS_TEX Lnet/minecraft/class_2960;
+	FIELD field_4364 NORMAL_TEX Lnet/minecraft/class_2960;
+	FIELD field_4365 isChristmas Z
+	FIELD field_4366 ENDER_TEX Lnet/minecraft/class_2960;

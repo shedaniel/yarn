@@ -1,2 +1,0 @@
-CLASS cwa net/minecraft/client/gui/ContainerProvider
-	METHOD h getContainer ()Late;

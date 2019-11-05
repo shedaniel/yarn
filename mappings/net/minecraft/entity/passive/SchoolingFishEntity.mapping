@@ -1,18 +1,22 @@
-CLASS amh net/minecraft/entity/passive/SchoolingFishEntity
-	CLASS amh$a Data
-		FIELD a leader Lamh;
-	FIELD b leader Lamh;
-	FIELD c groupSize I
-	METHOD <init> (Lahg;Lbcl;)V
+CLASS net/minecraft/class_1425 net/minecraft/entity/passive/SchoolingFishEntity
+	CLASS class_1426 Data
+		FIELD field_6735 leader Lnet/minecraft/class_1425;
+		METHOD <init> (Lnet/minecraft/class_1425;)V
+			ARG 1 leader
+	FIELD field_6733 groupSize I
+	FIELD field_6734 leader Lnet/minecraft/class_1425;
+	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
 		ARG 1 type
-	METHOD a joinGroupOf (Lamh;)Lamh;
-	METHOD a pullInOtherFish (Ljava/util/stream/Stream;)V
-	METHOD dD getMaxGroupSize ()I
-	METHOD dE hasLeader ()Z
-	METHOD dF leaveGroup ()V
-	METHOD dG canHaveMoreFishInGroup ()Z
-	METHOD dH hasOtherFishInGroup ()Z
-	METHOD dI isCloseEnoughToLeader ()Z
-	METHOD dJ moveTowardLeader ()V
-	METHOD dK increaseGroupSize ()V
-	METHOD dL decreaseGroupSize ()V
+	METHOD method_6459 decreaseGroupSize ()V
+	METHOD method_6461 joinGroupOf (Lnet/minecraft/class_1425;)Lnet/minecraft/class_1425;
+		ARG 1 groupLeader
+	METHOD method_6462 increaseGroupSize ()V
+	METHOD method_6463 moveTowardLeader ()V
+	METHOD method_6464 isCloseEnoughToLeader ()Z
+	METHOD method_6465 getMaxGroupSize ()I
+	METHOD method_6466 leaveGroup ()V
+	METHOD method_6467 hasOtherFishInGroup ()Z
+	METHOD method_6468 pullInOtherFish (Ljava/util/stream/Stream;)V
+		ARG 1 fish
+	METHOD method_6469 canHaveMoreFishInGroup ()Z
+	METHOD method_6470 hasLeader ()Z

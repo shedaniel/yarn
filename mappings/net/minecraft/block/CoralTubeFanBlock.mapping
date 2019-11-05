@@ -1,2 +1,0 @@
-CLASS bim net/minecraft/block/CoralTubeFanBlock
-	FIELD a deadCoralBlock Lbhn;

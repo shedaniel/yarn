@@ -1,12 +1,10 @@
-CLASS bns net/minecraft/block/WallBlock
-	FIELD i UP Lbrc;
-	FIELD j UP_OUTLINE_SHAPES [Lcnl;
-	FIELD k UP_COLLISION_SHAPES [Lcnl;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2544 net/minecraft/block/WallBlock
+	FIELD field_11716 UP_COLLISION_SHAPES [Lnet/minecraft/class_265;
+	FIELD field_11717 UP Lnet/minecraft/class_2746;
+	FIELD field_11718 UP_OUTLINE_SHAPES [Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a shouldConnectTo (Lbqk;ZLey;)Z
+	METHOD method_16704 shouldConnectTo (Lnet/minecraft/class_2680;ZLnet/minecraft/class_2350;)Z
 		ARG 1 state
 		ARG 2 faceFullSquare
 		ARG 3 side
-	METHOD f cannotConnectTo (Lbhn;)Z
-		ARG 0 block

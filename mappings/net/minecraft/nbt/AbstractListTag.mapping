@@ -1,11 +1,13 @@
-CLASS hq net/minecraft/nbt/AbstractListTag
-	METHOD a setTag (ILii;)Z
+CLASS net/minecraft/class_2483 net/minecraft/nbt/AbstractListTag
+	METHOD add (ILjava/lang/Object;)V
+		ARG 1 value
+	METHOD method_10533 addTag (ILnet/minecraft/class_2520;)Z
 		ARG 1 index
-	METHOD b addTag (ILii;)Z
+		ARG 2 tag
+	METHOD method_10535 setTag (ILnet/minecraft/class_2520;)Z
 		ARG 1 index
-	METHOD c getTag (I)Lii;
-	METHOD c set (ILii;)V
+		ARG 2 tag
+	METHOD remove (I)Ljava/lang/Object;
 		ARG 1 index
-	METHOD d getOrDefault (ILii;)Lii;
 	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
 		ARG 1 index
