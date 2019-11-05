@@ -1,5 +1,0 @@
-CLASS clp net/minecraft/world/loot/condition/EntityScoresLootCondition
-	CLASS clp$b Factory
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lclp;
-	FIELD a scores Ljava/util/Map;
-	FIELD b target Lcji$c;

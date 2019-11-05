@@ -1,6 +1,6 @@
-CLASS bzw net/minecraft/world/gen/feature/WoodlandMansionFeature
-	CLASS bzw$a
-		METHOD <init> (Lbzh;IILbdj;Lcco;IJ)V
+CLASS net/minecraft/class_3223 net/minecraft/world/gen/feature/WoodlandMansionFeature
+	CLASS class_3224 Start
+		METHOD <init> (Lnet/minecraft/class_3195;IILnet/minecraft/class_3341;IJ)V
 			ARG 2 chunkX
 			ARG 3 chunkZ
 	METHOD <init> (Ljava/util/function/Function;)V

@@ -1,5 +1,1 @@
-CLASS cbc net/minecraft/world/gen/decorator/CountTopSolidDecorator
-	METHOD a (Lbcm;Lbrz;Ljava/util/Random;Lbvn;Let;)Ljava/util/stream/Stream;
-		ARG 1 world
-		ARG 2 generator
-		ARG 3 random
+CLASS net/minecraft/class_3263 net/minecraft/world/gen/decorator/CountTopSolidDecorator

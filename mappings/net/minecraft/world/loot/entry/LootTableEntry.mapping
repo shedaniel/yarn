@@ -1,3 +1,0 @@
-CLASS ckc net/minecraft/world/loot/entry/LootTableEntry
-	CLASS ckc$a Serializer
-	FIELD c id Lqd;

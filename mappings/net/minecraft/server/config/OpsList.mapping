@@ -1,3 +1,0 @@
-CLASS wz net/minecraft/server/config/OpsList
-	METHOD b isOp (Lcom/mojang/authlib/GameProfile;)Z
-	METHOD c getId (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

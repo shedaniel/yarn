@@ -1,3 +1,2 @@
-CLASS djq net/minecraft/client/render/entity/EndermiteEntityRenderer
-	FIELD a SKIN Lqd;
-	METHOD b getTexture (Laps;)Lqd;
+CLASS net/minecraft/class_896 net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD field_4671 SKIN Lnet/minecraft/class_2960;

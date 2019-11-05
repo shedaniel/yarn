@@ -1,8 +1,8 @@
-CLASS bif net/minecraft/block/CocoaBlock
-	FIELD a AGE Lbrk;
-	FIELD b AGE_TO_EAST_SHAPE [Lcnl;
-	FIELD c AGE_TO_WEST_SHAPE [Lcnl;
-	FIELD d AGE_TO_NORTH_SHAPE [Lcnl;
-	FIELD e AGE_TO_SOUTH_SHAPE [Lcnl;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2282 net/minecraft/block/CocoaBlock
+	FIELD field_10776 AGE_TO_WEST_SHAPE [Lnet/minecraft/class_265;
+	FIELD field_10777 AGE_TO_NORTH_SHAPE [Lnet/minecraft/class_265;
+	FIELD field_10778 AGE_TO_EAST_SHAPE [Lnet/minecraft/class_265;
+	FIELD field_10779 AGE Lnet/minecraft/class_2758;
+	FIELD field_10780 AGE_TO_SOUTH_SHAPE [Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

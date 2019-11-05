@@ -1,1 +1,2 @@
-CLASS dje net/minecraft/client/render/entity/CodEntityRenderer
+CLASS net/minecraft/class_885 net/minecraft/client/render/entity/CodEntityRenderer
+	FIELD field_4652 SKIN Lnet/minecraft/class_2960;

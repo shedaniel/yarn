@@ -1,5 +1,6 @@
-CLASS ded net/minecraft/client/particle/CurrentDownParticle
-	CLASS ded$a Factory
-	METHOD <init> (Lbcl;DDD)V
-		ARG 1 world
+CLASS net/minecraft/class_736 net/minecraft/client/particle/CurrentDownParticle
+	CLASS class_737 Factory
+	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
 		ARG 2 x
+		ARG 4 y
+		ARG 6 z

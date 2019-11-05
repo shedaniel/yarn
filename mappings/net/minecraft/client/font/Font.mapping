@@ -1,2 +1,2 @@
-CLASS coc net/minecraft/client/font/Font
-	METHOD a getGlyph (C)Lcod;
+CLASS net/minecraft/class_390 net/minecraft/client/font/Font
+	METHOD method_2040 getGlyph (C)Lnet/minecraft/class_383;

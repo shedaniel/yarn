@@ -1,112 +1,64 @@
-CLASS dfs net/minecraft/client/render/block/BlockModelRenderer
-	CLASS dfs$a NeighborData
-		FIELD a DOWN Ldfs$a;
-		FIELD b UP Ldfs$a;
-		FIELD c NORTH Ldfs$a;
-		FIELD d SOUTH Ldfs$a;
-		FIELD e WEST Ldfs$a;
-		FIELD f EAST Ldfs$a;
-		FIELD g faces [Ley;
-		FIELD h nonCubicWeight Z
-		METHOD a getData (Ley;)Ldfs$a;
-	CLASS dfs$b AmbientOcclusionCalculator
-		FIELD b colorMultiplier [F
-		FIELD c brightness [I
-		METHOD a getAmbientOcclusionBrightness (IIII)I
-		METHOD a getBrightness (IIIIFFFF)I
-		METHOD a apply (Lbbu;Lbqk;Let;Ley;[FLjava/util/BitSet;)V
-	CLASS dfs$c Translation
-		FIELD a DOWN Ldfs$c;
-		FIELD b UP Ldfs$c;
-		FIELD c NORTH Ldfs$c;
-		FIELD d SOUTH Ldfs$c;
-		FIELD e WEST Ldfs$c;
-		FIELD f EAST Ldfs$c;
-		FIELD g firstCorner I
-		FIELD h secondCorner I
-		FIELD i thirdCorner I
-		FIELD j fourthCorner I
-		FIELD k VALUES [Ldfs$c;
-		METHOD a getTranslations (Ley;)Ldfs$c;
-	CLASS dfs$d NeighborOrientation
-		FIELD a DOWN Ldfs$d;
-		FIELD b UP Ldfs$d;
-		FIELD c NORTH Ldfs$d;
-		FIELD d SOUTH Ldfs$d;
-		FIELD e WEST Ldfs$d;
-		FIELD f EAST Ldfs$d;
-		FIELD g FLIP_DOWN Ldfs$d;
-		FIELD h FLIP_UP Ldfs$d;
-		FIELD i FLIP_NORTH Ldfs$d;
-		FIELD j FLIP_SOUTH Ldfs$d;
-		FIELD k FLIP_WEST Ldfs$d;
-		FIELD l FLIP_EAST Ldfs$d;
-		FIELD m shape I
-	FIELD a colorMap Lcqh;
-	FIELD b brightnessCache Ljava/lang/ThreadLocal;
-	FIELD c brightnessCacheEnabled Ljava/lang/ThreadLocal;
-	METHOD a enableBrightnessCache ()V
-	METHOD a renderQuad (FFFFLjava/util/List;)V
-		ARG 1 colorMultiplier
-		ARG 2 red
-		ARG 3 green
-		ARG 4 blue
-	METHOD a tesselateQuadsFlat (Lbbu;Lbqk;Let;IZLcpi;Ljava/util/List;Ljava/util/BitSet;)V
+CLASS net/minecraft/class_778 net/minecraft/client/render/block/BlockModelRenderer
+	CLASS class_779 NeighborData
+		FIELD field_4189 nonCubicWeight Z
+		FIELD field_4191 faces [Lnet/minecraft/class_2350;
+		METHOD method_3378 getData (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_779;
+	CLASS class_780 AmbientOcclusionCalculator
+		FIELD field_4194 brightness [I
+		FIELD field_4196 colorMultiplier [F
+		METHOD method_3386 getAmbientOcclusionBrightness (IIII)I
+		METHOD method_3388 apply (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;[FLjava/util/BitSet;)V
+		METHOD method_3389 getBrightness (IIIIFFFF)I
+	CLASS class_781 Translation
+		FIELD field_4198 thirdCorner I
+		FIELD field_4201 secondCorner I
+		FIELD field_4202 VALUES [Lnet/minecraft/class_778$class_781;
+		FIELD field_4203 firstCorner I
+		FIELD field_4209 fourthCorner I
+		METHOD method_3394 getTranslations (Lnet/minecraft/class_2350;)Lnet/minecraft/class_778$class_781;
+	CLASS class_782 NeighborOrientation
+		FIELD field_4222 shape I
+	CLASS class_4303 BrightnessCache
+		FIELD field_19320 enabled Z
+		FIELD field_19321 intCache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
+		FIELD field_19322 floatCache Lit/unimi/dsi/fastutil/longs/Long2FloatLinkedOpenHashMap;
+		METHOD method_20548 enable ()V
+		METHOD method_20549 getInt (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I
+			ARG 3 pos
+		METHOD method_20550 disable ()V
+		METHOD method_20551 getFloat (Lnet/minecraft/class_2680;Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)F
+			ARG 1 state
+			ARG 2 blockView
+			ARG 3 pos
+	FIELD field_4178 colorMap Lnet/minecraft/class_324;
+	FIELD field_4179 brightnessCache Ljava/lang/ThreadLocal;
+	METHOD method_20544 enableBrightnessCache ()V
+	METHOD method_20545 disableBrightnessCache ()V
+	METHOD method_3361 tesselateSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
 		ARG 1 view
-		ARG 2 state
-		ARG 3 pos
-		ARG 4 brightness
-		ARG 5 checkBrightness
-		ARG 6 buffer
-		ARG 7 quads
-	METHOD a tesselateQuadsSmooth (Lbbu;Lbqk;Let;Lcpi;Ljava/util/List;[FLjava/util/BitSet;Ldfs$b;)V
+		ARG 2 model
+		ARG 3 state
+		ARG 4 pos
+		ARG 5 buffer
+	METHOD method_3363 tesselateQuadsSmooth (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Ljava/util/List;[FLjava/util/BitSet;Lnet/minecraft/class_778$class_780;I)V
 		ARG 1 view
-		ARG 2 state
-		ARG 3 pos
-		ARG 4 buffer
-		ARG 5 quads
-		ARG 6 faceShape
-		ARG 7 shapeState
-	METHOD a updateShape (Lbbu;Lbqk;Let;[ILey;[FLjava/util/BitSet;)V
+	METHOD method_3364 updateShape (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;[ILnet/minecraft/class_2350;[FLjava/util/BitSet;)V
 		ARG 3 state
 		ARG 4 vertexData
 		ARG 5 facing
 		ARG 6 faceShape
-	METHOD a tesselate (Lbbu;Ldpw;Lbqk;Let;Lcpi;ZLjava/util/Random;J)Z
+	METHOD method_3365 renderQuad (Lnet/minecraft/class_1159;Lnet/minecraft/class_4581;Lnet/minecraft/class_4588;FFFLjava/util/List;II)V
+	METHOD method_3367 render (Lnet/minecraft/class_1159;Lnet/minecraft/class_4581;Lnet/minecraft/class_4588;Lnet/minecraft/class_2680;Lnet/minecraft/class_1087;FFFII)V
+	METHOD method_3370 tesselateQuadsFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;IIZLnet/minecraft/class_4587;Lnet/minecraft/class_4588;Ljava/util/List;Ljava/util/BitSet;)V
+		ARG 4 brightness
+	METHOD method_3373 tesselateFlat (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
 		ARG 1 view
 		ARG 2 model
 		ARG 3 state
 		ARG 4 pos
 		ARG 5 buffer
-		ARG 6 testSides
-	METHOD a render (Lbqk;Ldpw;FFFF)V
-		ARG 1 state
-		ARG 2 model
-		ARG 3 colorMultiplier
-		ARG 4 red
-		ARG 5 green
-	METHOD a render (Ldpw;FFFF)V
-		ARG 1 model
-		ARG 2 colorMultiplier
-		ARG 3 red
-		ARG 4 green
-	METHOD a render (Ldpw;Lbqk;FZ)V
-		ARG 1 model
-		ARG 2 state
-		ARG 3 colorMultiplier
-	METHOD b disableBrightnessCache ()V
-	METHOD b tesselateSmooth (Lbbu;Ldpw;Lbqk;Let;Lcpi;ZLjava/util/Random;J)Z
+	METHOD method_3374 tesselate (Lnet/minecraft/class_1920;Lnet/minecraft/class_1087;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;ZLjava/util/Random;JI)Z
 		ARG 1 view
 		ARG 2 model
 		ARG 3 state
 		ARG 4 pos
-		ARG 5 buffer
-		ARG 6 testSides
-	METHOD c tesselateFlat (Lbbu;Ldpw;Lbqk;Let;Lcpi;ZLjava/util/Random;J)Z
-		ARG 1 view
-		ARG 2 model
-		ARG 3 state
-		ARG 4 pos
-		ARG 5 buffer
-		ARG 6 testSides
-		ARG 8 seed

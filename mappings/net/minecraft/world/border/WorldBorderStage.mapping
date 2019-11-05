@@ -1,6 +1,3 @@
-CLASS brv net/minecraft/world/border/WorldBorderStage
-	FIELD a GROWING Lbrv;
-	FIELD b SHRINKING Lbrv;
-	FIELD c STATIC Lbrv;
-	FIELD d color I
-	METHOD a getColor ()I
+CLASS net/minecraft/class_2789 net/minecraft/world/border/WorldBorderStage
+	FIELD field_12755 color I
+	METHOD method_11999 getColor ()I

@@ -1,2 +1,2 @@
-CLASS dmj net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
-	FIELD a SKIN Lqd;
+CLASS net/minecraft/class_967 net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
+	FIELD field_4818 SKIN Lnet/minecraft/class_2960;

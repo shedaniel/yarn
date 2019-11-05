@@ -1,3 +1,0 @@
-CLASS ana net/minecraft/entity/passive/ParrotBaseEntity
-	METHOD <init> (Lahg;Lbcl;)V
-		ARG 1 type

@@ -1,3 +1,0 @@
-CLASS dqm net/minecraft/client/audio/ElytraSoundInstance
-	FIELD n player Ldej;
-	FIELD o tickCount I

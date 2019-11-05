@@ -1,2 +1,2 @@
-CLASS dlo net/minecraft/client/render/entity/SlimeEntityRenderer
-	FIELD a SKIN Lqd;
+CLASS net/minecraft/class_945 net/minecraft/client/render/entity/SlimeEntityRenderer
+	FIELD field_4784 SKIN Lnet/minecraft/class_2960;
