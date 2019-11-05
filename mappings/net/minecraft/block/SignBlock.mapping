@@ -1,5 +1,4 @@
-CLASS bmg net/minecraft/block/SignBlock
-	FIELD a WATERLOGGED Lbrc;
-	FIELD b SHAPE Lcnl;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2508 net/minecraft/block/SignBlock
+	FIELD field_11559 ROTATION Lnet/minecraft/class_2758;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

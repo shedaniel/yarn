@@ -1,16 +1,12 @@
-CLASS al net/minecraft/advancement/criterion/EffectsChangedCriterion
-	CLASS al$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a addCondition (Lu$a;)V
-		METHOD a handle (Lut;)V
-		METHOD b removeCondition (Lu$a;)V
-	CLASS al$b Conditions
-		FIELD a effects Lbg;
-		METHOD a matches (Lut;)Z
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;)V
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lal$b;
-		ARG 1 obj
+CLASS net/minecraft/class_2027 net/minecraft/advancement/criterion/EffectsChangedCriterion
+	CLASS class_2029 Conditions
+		FIELD field_9562 effects Lnet/minecraft/class_2102;
+		METHOD <init> (Lnet/minecraft/class_2102;)V
+			ARG 1 effects
+		METHOD method_8868 matches (Lnet/minecraft/class_3222;)Z
+			ARG 1 player
+		METHOD method_8869 create (Lnet/minecraft/class_2102;)Lnet/minecraft/class_2027$class_2029;
+			ARG 0 effects
+	FIELD field_9558 ID Lnet/minecraft/class_2960;
+	METHOD method_8863 trigger (Lnet/minecraft/class_3222;)V
+		ARG 1 player

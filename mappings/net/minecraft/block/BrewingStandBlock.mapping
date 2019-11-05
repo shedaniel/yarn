@@ -1,4 +1,5 @@
-CLASS bhq net/minecraft/block/BrewingStandBlock
-	FIELD a BOTTLE_PROPERTIES [Lbrc;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2260 net/minecraft/block/BrewingStandBlock
+	FIELD field_10700 BOTTLE_PROPERTIES [Lnet/minecraft/class_2746;
+	FIELD field_10701 SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

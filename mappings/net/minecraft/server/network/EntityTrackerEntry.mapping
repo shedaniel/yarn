@@ -1,25 +1,19 @@
-CLASS uy net/minecraft/server/network/EntityTrackerEntry
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d entity Lahc;
-	FIELD e trackingRange I
-	FIELD g tickInterval I
-	FIELD h lastX J
-	FIELD i lastY J
-	FIELD j lastZ J
-	FIELD k lastYaw I
-	FIELD l lastPitch I
-	FIELD m lastHeadPitch I
-	FIELD n lastVelocityX D
-	FIELD o lastVelocityY D
-	FIELD p lastVelocityZ D
-	FIELD u alwaysUpdateVelocity Z
-	FIELD w lastPassengers Ljava/util/List;
-	FIELD y lastOnGround Z
-	FIELD z trackingPlayers Ljava/util/Set;
-	METHOD a sendToTrackingPlayers (Ljq;)V
-		ARG 1 packet
-	METHOD b getEntity ()Lahc;
-	METHOD b sendToTrackingPlayersAndSelf (Ljq;)V
-	METHOD e createSpawnPacket ()Ljq;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS net/minecraft/class_3231 net/minecraft/server/network/EntityTrackerEntry
+	FIELD field_14035 lastY J
+	FIELD field_14036 lastOnGround Z
+	FIELD field_14037 tickInterval I
+	FIELD field_14039 alwaysUpdateVelocity Z
+	FIELD field_14041 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_14045 lastPassengers Ljava/util/List;
+	FIELD field_14047 lastPitch I
+	FIELD field_14048 lastZ J
+	FIELD field_14049 entity Lnet/minecraft/class_1297;
+	FIELD field_14050 lastX J
+	FIELD field_14059 lastHeadPitch I
+	FIELD field_14060 lastYaw I
+	METHOD <init> (Lnet/minecraft/class_3218;Lnet/minecraft/class_1297;IZLjava/util/function/Consumer;)V
+		ARG 3 tickInterval
+	METHOD method_14302 stopTracking (Lnet/minecraft/class_3222;)V
+	METHOD method_18757 sendPackets (Ljava/util/function/Consumer;)V
+		ARG 1 sender
+	METHOD method_18760 startTracking (Lnet/minecraft/class_3222;)V

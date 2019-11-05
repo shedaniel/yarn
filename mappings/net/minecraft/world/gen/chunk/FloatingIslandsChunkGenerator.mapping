@@ -1,3 +1,2 @@
-CLASS btz net/minecraft/world/gen/chunk/FloatingIslandsChunkGenerator
-	FIELD h center Let;
-	METHOD j getCenter ()Let;
+CLASS net/minecraft/class_2914 net/minecraft/world/gen/chunk/FloatingIslandsChunkGenerator
+	FIELD field_13268 center Lnet/minecraft/class_2338;

@@ -1,2 +1,0 @@
-CLASS ckh net/minecraft/world/loot/function/ExplosionDecayLootFunction
-	CLASS ckh$a Factory

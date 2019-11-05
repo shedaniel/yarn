@@ -1,3 +1,0 @@
-CLASS ckn net/minecraft/world/loot/function/FillPlayerHeadLootFunction
-	CLASS ckn$a Factory
-	FIELD a entity Lcji$c;

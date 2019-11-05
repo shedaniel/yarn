@@ -1,1 +1,2 @@
-CLASS djl net/minecraft/client/render/entity/DrownedEntityRenderer
+CLASS net/minecraft/class_890 net/minecraft/client/render/entity/DrownedEntityRenderer
+	FIELD field_4659 SKIN Lnet/minecraft/class_2960;

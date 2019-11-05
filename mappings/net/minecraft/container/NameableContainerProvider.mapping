@@ -1,2 +1,2 @@
-CLASS aga net/minecraft/container/NameableContainerProvider
-	METHOD d getDisplayName ()Ljc;
+CLASS net/minecraft/class_3908 net/minecraft/container/NameableContainerProvider
+	METHOD method_5476 getDisplayName ()Lnet/minecraft/class_2561;

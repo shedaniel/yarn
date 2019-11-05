@@ -1,3 +1,0 @@
-CLASS ot net/minecraft/server/network/packet/PlayerInteractItemServerPacket
-	FIELD a hand Lafw;
-	METHOD b getHand ()Lafw;

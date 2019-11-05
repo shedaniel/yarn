@@ -1,8 +1,7 @@
-CLASS cfo net/minecraft/world/chunk/light/LightingView
-	METHOD a scheduleChunkLightUpdate (IIIZ)V
-		ARG 1 chunkX
-		ARG 2 chunkY
-		ARG 3 chunkZ
-		ARG 4 isEmpty
-	METHOD a scheduleChunkLightUpdate (Let;Z)V
+CLASS net/minecraft/class_3565 net/minecraft/world/chunk/light/LightingView
+	METHOD method_15551 updateSectionStatus (Lnet/minecraft/class_4076;Z)V
 		ARG 1 pos
+		ARG 2 status
+	METHOD method_15552 updateSectionStatus (Lnet/minecraft/class_2338;Z)V
+		ARG 1 pos
+		ARG 2 status

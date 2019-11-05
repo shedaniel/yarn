@@ -1,26 +1,28 @@
-CLASS cnu net/minecraft/scoreboard/ScoreboardCriterion
-	CLASS cnu$a Type
-		FIELD a INTEGER Lcnu$a;
-		FIELD b HEARTS Lcnu$a;
-		FIELD c name Ljava/lang/String;
-		METHOD a getName ()Ljava/lang/String;
-	FIELD a OBJECTIVES Ljava/util/Map;
-	FIELD b DUMMY Lcnu;
-	FIELD c TRIGGER Lcnu;
-	FIELD d DEATH_COUNT Lcnu;
-	FIELD e PLAYER_KILL_COUNT Lcnu;
-	FIELD f TOTAL_KILL_COUNT Lcnu;
-	FIELD g HEALTH Lcnu;
-	FIELD h FOOD Lcnu;
-	FIELD i AIR Lcnu;
-	FIELD j ARMOR Lcnu;
-	FIELD k XP Lcnu;
-	FIELD l LEVEL Lcnu;
-	FIELD m TEAM_KILLS [Lcnu;
-	FIELD n KILLED_BY_TEAMS [Lcnu;
-	FIELD o name Ljava/lang/String;
-	FIELD p readOnly Z
-	FIELD q criterionType Lcnu$a;
-	METHOD c getName ()Ljava/lang/String;
-	METHOD d isReadOnly ()Z
-	METHOD e getCriterionType ()Lcnu$a;
+CLASS net/minecraft/class_274 net/minecraft/scoreboard/ScoreboardCriterion
+	CLASS class_275 RenderType
+		FIELD field_1469 name Ljava/lang/String;
+		FIELD field_1470 CRITERION_TYPES Ljava/util/Map;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+		METHOD method_1228 getName ()Ljava/lang/String;
+		METHOD method_1229 getType (Ljava/lang/String;)Lnet/minecraft/class_274$class_275;
+			ARG 0 name
+	FIELD field_1454 name Ljava/lang/String;
+	FIELD field_1455 OBJECTIVES Ljava/util/Map;
+	FIELD field_1458 KILLED_BY_TEAMS [Lnet/minecraft/class_274;
+	FIELD field_1461 readOnly Z
+	FIELD field_1466 TEAM_KILLS [Lnet/minecraft/class_274;
+	FIELD field_1467 criterionType Lnet/minecraft/class_274$class_275;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD <init> (Ljava/lang/String;ZLnet/minecraft/class_274$class_275;)V
+		ARG 1 name
+		ARG 2 readOnly
+	METHOD method_1223 createStatCriterion (Lnet/minecraft/class_3448;Lnet/minecraft/class_2960;)Ljava/util/Optional;
+		ARG 0 statType
+		ARG 1 id
+	METHOD method_1224 createStatCriterion (Ljava/lang/String;)Ljava/util/Optional;
+		ARG 0 name
+	METHOD method_1225 getName ()Ljava/lang/String;
+	METHOD method_1226 isReadOnly ()Z
+	METHOD method_1227 getCriterionType ()Lnet/minecraft/class_274$class_275;

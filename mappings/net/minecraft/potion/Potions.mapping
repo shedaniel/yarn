@@ -1,2 +1,3 @@
-CLASS ayx net/minecraft/potion/Potions
-	METHOD a register (Ljava/lang/String;Layu;)Layu;
+CLASS net/minecraft/class_1847 net/minecraft/potion/Potions
+	METHOD method_8084 register (Ljava/lang/String;Lnet/minecraft/class_1842;)Lnet/minecraft/class_1842;
+		ARG 0 name

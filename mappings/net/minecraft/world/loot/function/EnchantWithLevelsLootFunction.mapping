@@ -1,4 +1,0 @@
-CLASS ckl net/minecraft/world/loot/function/EnchantWithLevelsLootFunction
-	CLASS ckl$b Factory
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lclu;)Lckl;
-	FIELD c treasureEnchantmentsAllowed Z
