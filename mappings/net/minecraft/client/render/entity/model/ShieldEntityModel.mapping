@@ -1,2 +1,1 @@
-CLASS daq net/minecraft/client/render/entity/model/ShieldEntityModel
-	METHOD a renderItem ()V
+CLASS net/minecraft/class_600 net/minecraft/client/render/entity/model/ShieldEntityModel

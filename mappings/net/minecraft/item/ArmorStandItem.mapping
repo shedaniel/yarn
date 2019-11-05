@@ -1,6 +1,6 @@
-CLASS avb net/minecraft/item/ArmorStandItem
-	METHOD <init> (Lawy$a;)V
+CLASS net/minecraft/class_1742 net/minecraft/item/ArmorStandItem
+	METHOD <init> (Lnet/minecraft/class_1792$class_1793;)V
 		ARG 1 settings
-	METHOD a setRotations (Laot;Ljava/util/Random;)V
-		ARG 1 armorStand
+	METHOD method_7701 setRotations (Lnet/minecraft/class_1531;Ljava/util/Random;)V
+		ARG 1 stand
 		ARG 2 random

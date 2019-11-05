@@ -1,4 +1,4 @@
-CLASS brj net/minecraft/block/enums/BlockHalf
-	FIELD a TOP Lbrj;
-	FIELD b BOTTOM Lbrj;
-	FIELD c name Ljava/lang/String;
+CLASS net/minecraft/class_2760 net/minecraft/block/enums/BlockHalf
+	FIELD field_12616 name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 name

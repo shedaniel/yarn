@@ -1,6 +1,0 @@
-CLASS aln net/minecraft/entity/ai/pathing/EntityMobNavigation
-	METHOD <init> (Lahm;Lbcl;)V
-		ARG 1 entity
-	METHOD a setCanPathThroughDoors (Z)V
-	METHOD b setCanEnterOpenDoors (Z)V
-	METHOD g canEnterOpenDoors ()Z

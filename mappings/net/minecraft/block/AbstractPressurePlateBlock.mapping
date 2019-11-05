@@ -1,28 +1,27 @@
-CLASS bhg net/minecraft/block/AbstractPressurePlateBlock
-	FIELD a DEPRESSED_SHAPE Lcnl;
-	FIELD b DEFAULT_SHAPE Lcnl;
-	FIELD c BOX Lcmm;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2231 net/minecraft/block/AbstractPressurePlateBlock
+	FIELD field_9941 BOX Lnet/minecraft/class_238;
+	FIELD field_9942 PRESSED_SHAPE Lnet/minecraft/class_265;
+	FIELD field_9943 DEFAULT_SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
-	METHOD a updateNeighbors (Lbcl;Let;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD a updatePlateState (Lbcl;Let;Lbqk;I)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-		ARG 4 rsOut
-	METHOD a playPressSound (Lbcm;Let;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD a setRedstoneOutput (Lbqk;I)Lbqk;
+	METHOD method_9432 setRedstoneOutput (Lnet/minecraft/class_2680;I)Lnet/minecraft/class_2680;
 		ARG 1 state
 		ARG 2 rsOut
-	METHOD b getRedstoneOutput (Lbcl;Let;)I
+	METHOD method_9433 updatePlateState (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;I)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD b playDepressSound (Lbcm;Let;)V
+		ARG 4 rsOut
+	METHOD method_9434 getRedstoneOutput (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD j getRedstoneOutput (Lbqk;)I
+	METHOD method_9435 getRedstoneOutput (Lnet/minecraft/class_2680;)I
 		ARG 1 state
+	METHOD method_9436 playPressSound (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD method_9437 updateNeighbors (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD method_9438 playDepressSound (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V
+		ARG 1 world
+		ARG 2 pos

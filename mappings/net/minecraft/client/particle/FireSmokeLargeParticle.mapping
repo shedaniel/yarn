@@ -1,6 +1,6 @@
-CLASS ddi net/minecraft/client/particle/FireSmokeLargeParticle
-	CLASS ddi$a Factory
-	METHOD <init> (Lbcl;DDDDDD)V
+CLASS net/minecraft/class_696 net/minecraft/client/particle/FireSmokeLargeParticle
+	CLASS class_697 Factory
+	METHOD <init> (Lnet/minecraft/class_1937;DDDDDDLnet/minecraft/class_4002;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y

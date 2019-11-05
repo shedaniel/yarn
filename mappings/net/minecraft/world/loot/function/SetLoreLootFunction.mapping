@@ -1,5 +1,0 @@
-CLASS ckz net/minecraft/world/loot/function/SetLoreLootFunction
-	CLASS ckz$b Factory
-	FIELD a replace Z
-	FIELD c lore Ljava/util/List;
-	FIELD d entity Lcji$c;

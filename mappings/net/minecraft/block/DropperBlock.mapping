@@ -1,4 +1,4 @@
-CLASS bjb net/minecraft/block/DropperBlock
-	FIELD c BEHAVIOR Lfa;
-	METHOD <init> (Lbhn$c;)V
+CLASS net/minecraft/class_2325 net/minecraft/block/DropperBlock
+	FIELD field_10949 BEHAVIOR Lnet/minecraft/class_2357;
+	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings

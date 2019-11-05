@@ -5,9 +5,11 @@
 *.DS_Store
 build/
 out/
+mappings_official/
 
 # idea
 .idea/
 *.iml
 *.iws
 *.ipr
+*.jar

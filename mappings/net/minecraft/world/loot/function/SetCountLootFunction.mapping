@@ -1,3 +1,0 @@
-CLASS ckx net/minecraft/world/loot/function/SetCountLootFunction
-	CLASS ckx$a Factory
-	METHOD a builder (Lcjo;)Lckq$a;

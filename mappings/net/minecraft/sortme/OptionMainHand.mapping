@@ -1,3 +1,0 @@
-CLASS ahk net/minecraft/sortme/OptionMainHand
-	FIELD c name Ljc;
-	METHOD a getOpposite ()Lahk;

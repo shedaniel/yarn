@@ -1,2 +1,0 @@
-CLASS auw net/minecraft/item/block/AirBlockItem
-	FIELD a block Lbhn;

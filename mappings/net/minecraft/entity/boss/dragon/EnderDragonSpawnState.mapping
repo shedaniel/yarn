@@ -1,7 +1,5 @@
-CLASS btg net/minecraft/entity/boss/dragon/EnderDragonSpawnState
-	FIELD a START Lbtg;
-	FIELD b PREPARE_CREATE_SPIKES Lbtg;
-	FIELD c CREATE_SPIKES Lbtg;
-	FIELD d SPAWN_DRAGON Lbtg;
-	FIELD e END Lbtg;
-	METHOD a run (Lur;Lbth;Ljava/util/List;ILet;)V
+CLASS net/minecraft/class_2876 net/minecraft/entity/boss/dragon/EnderDragonSpawnState
+	METHOD method_12507 run (Lnet/minecraft/class_3218;Lnet/minecraft/class_2881;Ljava/util/List;ILnet/minecraft/class_2338;)V
+		ARG 1 world
+		ARG 2 fight
+		ARG 3 crystals
