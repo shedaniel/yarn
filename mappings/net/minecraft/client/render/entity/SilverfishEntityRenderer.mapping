@@ -1,3 +1,2 @@
-CLASS dlm net/minecraft/client/render/entity/SilverfishEntityRenderer
-	FIELD a SKIN Lqd;
-	METHOD b getTexture (Laqk;)Lqd;
+CLASS net/minecraft/class_942 net/minecraft/client/render/entity/SilverfishEntityRenderer
+	FIELD field_4779 SKIN Lnet/minecraft/class_2960;

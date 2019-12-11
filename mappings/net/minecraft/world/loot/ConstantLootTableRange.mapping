@@ -1,5 +1,0 @@
-CLASS cjg net/minecraft/world/loot/ConstantLootTableRange
-	CLASS cjg$a Serializer
-	FIELD d value I
-	METHOD a create (I)Lcjg;
-		ARG 0 value

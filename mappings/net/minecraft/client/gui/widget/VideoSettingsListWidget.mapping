@@ -1,3 +1,0 @@
-CLASS crk net/minecraft/client/gui/widget/VideoSettingsListWidget
-	METHOD <init> (Lcpy;IIIII[Lcqa$a;)V
-		ARG 1 client

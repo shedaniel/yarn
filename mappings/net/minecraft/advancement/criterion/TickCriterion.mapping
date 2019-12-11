@@ -1,14 +1,5 @@
-CLASS bp net/minecraft/advancement/criterion/TickCriterion
-	CLASS bp$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a addCondition (Lu$a;)V
-		METHOD b handle ()V
-		METHOD b removeCondition (Lu$a;)V
-	CLASS bp$b Conditions
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;)V
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbp$b;
-		ARG 1 obj
+CLASS net/minecraft/class_2135 net/minecraft/advancement/criterion/TickCriterion
+	FIELD field_9758 ID Lnet/minecraft/class_2960;
+	METHOD method_9141 trigger (Lnet/minecraft/class_3222;)V
+		ARG 1 player
+	CLASS class_2137 Conditions

@@ -1,56 +1,11 @@
-CLASS boh net/minecraft/block/entity/BannerPattern
-	CLASS boh$a Builder
-		FIELD a patterns Ljava/util/List;
-		METHOD a build ()Lhx;
-		METHOD a with (Lboh;Lawa;)Lboh$a;
-			ARG 1 pattern
-	FIELD A HALF_VERTICAL_LEFT Lboh;
-	FIELD B HALF_HORIZONTAL_TOP Lboh;
-	FIELD C HALF_VERTICAL_RIGHT Lboh;
-	FIELD D HALF_HORIZONTAL_BOTTOM Lboh;
-	FIELD E BORDER Lboh;
-	FIELD F CURLY_BORDER Lboh;
-	FIELD G GRADIENT_DOWN Lboh;
-	FIELD H GRADIENT_UP Lboh;
-	FIELD I BRICKS Lboh;
-	FIELD J CREEPER Lboh;
-	FIELD K SKULL Lboh;
-	FIELD L FLOWER Lboh;
-	FIELD M MOJANG Lboh;
-	FIELD N COUNT I
-	FIELD O name Ljava/lang/String;
-	FIELD P id Ljava/lang/String;
-	FIELD Q recipePattern [Ljava/lang/String;
-	FIELD R baseStack Laxd;
-	FIELD a BASE Lboh;
-	FIELD b SQUARE_BOTTOM_LEFT Lboh;
-	FIELD c SQUARE_BOTTOM_RIGHT Lboh;
-	FIELD d SQUARE_TOP_LEFT Lboh;
-	FIELD e SQUARE_TOP_RIGHT Lboh;
-	FIELD f STRIPE_BOTTOM Lboh;
-	FIELD g STRIPE_TOP Lboh;
-	FIELD h STRIPE_LEFT Lboh;
-	FIELD i STRIPE_RIGHT Lboh;
-	FIELD j STRIPE_CENTER Lboh;
-	FIELD k STRIPE_MIDDLE Lboh;
-	FIELD l STRIPE_DOWNRIGHT Lboh;
-	FIELD m STRIPE_DOWNLEFT Lboh;
-	FIELD n SMALL_STRIPES Lboh;
-	FIELD o CROSS Lboh;
-	FIELD p STRAIGHT_CROSS Lboh;
-	FIELD q TRIANGLE_BOTTOM Lboh;
-	FIELD r TRIANGLE_TOP Lboh;
-	FIELD s TRIANGLES_BOTTOM Lboh;
-	FIELD t TRIANGLES_TOP Lboh;
-	FIELD u DIAGONAL_DOWN_LEFT Lboh;
-	FIELD v DIAGONAL_UP_RIGHT Lboh;
-	FIELD w DIAGONAL_UP_LEFT Lboh;
-	FIELD x DIAGONAL_DOWN_RIGHT Lboh;
-	FIELD y CIRCLE Lboh;
-	FIELD z RHOMBUS Lboh;
+CLASS net/minecraft/class_2582 net/minecraft/block/entity/BannerPattern
+	FIELD field_11808 name Ljava/lang/String;
+	FIELD field_11824 id Ljava/lang/String;
+	FIELD field_11832 baseStack Lnet/minecraft/class_1799;
+	FIELD field_11841 recipePattern [Ljava/lang/String;
+	FIELD field_11846 COUNT I
+	FIELD field_18283 LOOM_APPLICABLE_COUNT I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
-		ARG 3 name
-	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Laxd;)V
 		ARG 3 name
 		ARG 4 id
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -58,7 +13,19 @@ CLASS boh net/minecraft/block/entity/BannerPattern
 		ARG 4 id
 		ARG 5 recipePattern0
 		ARG 6 recipePattern1
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a byId (Ljava/lang/String;)Lboh;
+		ARG 7 recipePattern2
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lnet/minecraft/class_1799;)V
+		ARG 3 name
+		ARG 4 id
+		ARG 5 baseStack
+	METHOD method_10945 getId ()Ljava/lang/String;
+	METHOD method_10946 byId (Ljava/lang/String;)Lnet/minecraft/class_2582;
 		ARG 0 id
-	METHOD b getId ()Ljava/lang/String;
+	METHOD method_10947 getName ()Ljava/lang/String;
+	METHOD method_22536 getSpriteId (Z)Lnet/minecraft/class_2960;
+	CLASS class_3750 Patterns
+		FIELD field_16548 entries Ljava/util/List;
+		METHOD method_16375 toTag ()Lnet/minecraft/class_2499;
+		METHOD method_16376 add (Lnet/minecraft/class_2582;Lnet/minecraft/class_1767;)Lnet/minecraft/class_2582$class_3750;
+			ARG 1 pattern
+			ARG 2 color

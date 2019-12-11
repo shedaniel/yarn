@@ -1,73 +1,74 @@
-CLASS bsd net/minecraft/world/chunk/ChunkStatus
-	CLASS bsd$a Task
-		METHOD doWork (Lbsd;Lbcl;Lbrz;Lceb;Luv;Ljava/util/function/Function;Ljava/util/List;Lbry;)Ljava/util/concurrent/CompletableFuture;
+CLASS net/minecraft/class_2806 net/minecraft/world/chunk/ChunkStatus
+	FIELD field_12787 chunkType Lnet/minecraft/class_2806$class_2808;
+	FIELD field_12788 STATUS_TO_TARGET_GENERATION_RADIUS Lit/unimi/dsi/fastutil/ints/IntList;
+	FIELD field_12789 id Ljava/lang/String;
+	FIELD field_12791 DISTANCE_TO_TARGET_GENERATION_STATUS Ljava/util/List;
+	FIELD field_12792 task Lnet/minecraft/class_2806$class_2807;
+	FIELD field_12793 heightMapTypes Ljava/util/EnumSet;
+	FIELD field_12802 taskMargin I
+	FIELD field_16646 index I
+	FIELD field_16647 previous Lnet/minecraft/class_2806;
+	FIELD field_19159 PRE_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
+	FIELD field_19160 POST_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
+	FIELD field_19345 STATUS_BUMP_NO_GEN_TASK Lnet/minecraft/class_2806$class_4305;
+	FIELD field_19346 noGenTask Lnet/minecraft/class_2806$class_4305;
+	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_2806;ILjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;Lnet/minecraft/class_2806$class_4305;)V
+		ARG 1 id
+		ARG 2 previous
+		ARG 3 taskMargin
+		ARG 4 heightMapTypes
+		ARG 5 chunkType
+		ARG 6 task
+	METHOD method_12152 getTaskMargin ()I
+	METHOD method_12154 runTask (Lnet/minecraft/class_3218;Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_3227;Ljava/util/function/Function;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+		ARG 2 chunkGenerator
+	METHOD method_12155 getMaxTargetGenerationRadius ()I
+	METHOD method_12160 getHeightmapTypes ()Ljava/util/EnumSet;
+	METHOD method_12161 getTargetGenerationStatus (I)Lnet/minecraft/class_2806;
+		ARG 0 distance
+	METHOD method_12164 getChunkType ()Lnet/minecraft/class_2806$class_2808;
+	METHOD method_12165 isAtLeast (Lnet/minecraft/class_2806;)Z
+		ARG 1 chunk
+	METHOD method_12168 get (Ljava/lang/String;)Lnet/minecraft/class_2806;
+		ARG 0 id
+	METHOD method_12172 getId ()Ljava/lang/String;
+	METHOD method_12175 getTargetGenerationRadius (Lnet/minecraft/class_2806;)I
+		ARG 0 status
+	METHOD method_16555 register (Ljava/lang/String;Lnet/minecraft/class_2806;ILjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_3768;)Lnet/minecraft/class_2806;
+		ARG 0 id
+		ARG 1 previous
+		ARG 2 taskMargin
+		ARG 3 heightMapTypes
+		ARG 4 chunkType
+		ARG 5 task
+	METHOD method_16557 register (Ljava/lang/String;Lnet/minecraft/class_2806;ILjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;)Lnet/minecraft/class_2806;
+		ARG 0 id
+		ARG 1 previous
+		ARG 2 taskMargin
+		ARG 3 heightMapTypes
+		ARG 4 chunkType
+		ARG 5 task
+	METHOD method_16558 createOrderedList ()Ljava/util/List;
+	METHOD method_16559 getIndex ()I
+	METHOD method_16560 getPrevious ()Lnet/minecraft/class_2806;
+	METHOD method_20611 register (Ljava/lang/String;Lnet/minecraft/class_2806;ILjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;Lnet/minecraft/class_2806$class_4305;)Lnet/minecraft/class_2806;
+		ARG 0 id
+		ARG 1 previous
+		ARG 2 taskMargin
+		ARG 3 heightMapTypes
+		ARG 4 chunkType
+		ARG 5 task
+	METHOD method_20612 runNoGenTask (Lnet/minecraft/class_3218;Lnet/minecraft/class_3485;Lnet/minecraft/class_3227;Ljava/util/function/Function;Lnet/minecraft/class_2791;)Ljava/util/concurrent/CompletableFuture;
+	CLASS class_2807 Task
+		METHOD doWork (Lnet/minecraft/class_2806;Lnet/minecraft/class_3218;Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_3227;Ljava/util/function/Function;Ljava/util/List;Lnet/minecraft/class_2791;)Ljava/util/concurrent/CompletableFuture;
 			ARG 1 targetStatus
-			ARG 2 world
 			ARG 3 generator
-	CLASS bsd$b ChunkType
-		FIELD a PROTOCHUNK Lbsd$b;
-		FIELD b LEVELCHUNK Lbsd$b;
-	CLASS bsd$c SimpleTask
-		METHOD doWork (Lbcl;Lbrz;Ljava/util/List;Lbry;)V
-			ARG 1 world
+	CLASS class_2808 ChunkType
+	CLASS class_3768 SimpleTask
+		METHOD doWork (Lnet/minecraft/class_2806;Lnet/minecraft/class_3218;Lnet/minecraft/class_2794;Lnet/minecraft/class_3485;Lnet/minecraft/class_3227;Ljava/util/function/Function;Ljava/util/List;Lnet/minecraft/class_2791;)Ljava/util/concurrent/CompletableFuture;
+			ARG 1 targetStatus
+			ARG 3 generator
+		METHOD doWork (Lnet/minecraft/class_3218;Lnet/minecraft/class_2794;Ljava/util/List;Lnet/minecraft/class_2791;)V
 			ARG 2 generator
 			ARG 4 chunk
-		METHOD doWork (Lbsd;Lbcl;Lbrz;Lceb;Luv;Ljava/util/function/Function;Ljava/util/List;Lbry;)Ljava/util/concurrent/CompletableFuture;
-			ARG 1 targetStatus
-			ARG 2 world
-			ARG 3 generator
-	FIELD a EMPTY Lbsd;
-	FIELD b STRUCTURE_STARTS Lbsd;
-	FIELD c STRUCTURE_REFERENCES Lbsd;
-	FIELD d BIOMES Lbsd;
-	FIELD e NOISE Lbsd;
-	FIELD f SURFACE Lbsd;
-	FIELD g CARVERS Lbsd;
-	FIELD h LIQUID_CARVERS Lbsd;
-	FIELD i FEATURES Lbsd;
-	FIELD j LIGHT Lbsd;
-	FIELD k SPAWN Lbsd;
-	FIELD l HEIGHTMAPS Lbsd;
-	FIELD m FULL Lbsd;
-	FIELD n DISTANCE_TO_TARGET_GENERATION_STATUS Ljava/util/List;
-	FIELD o STATUS_TO_TARGET_GENERATION_RADIUS Lit/unimi/dsi/fastutil/ints/IntList;
-	FIELD p name Ljava/lang/String;
-	FIELD q index I
-	FIELD r previous Lbsd;
-	FIELD s task Lbsd$a;
-	FIELD t taskMargin I
-	FIELD u chunkType Lbsd$b;
-	FIELD v surfaceGenerated Z
-	METHOD <init> (Ljava/lang/String;Lbsd;IZLbsd$b;Lbsd$a;)V
-		ARG 1 name
-		ARG 2 previous
-		ARG 6 task
-	METHOD a createOrderedList ()Ljava/util/List;
-	METHOD a getTargetGenerationStatus (I)Lbsd;
-		ARG 0 distance
-	METHOD a runTask (Lbcl;Lbrz;Lceb;Luv;Ljava/util/function/Function;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
-		ARG 2 chunkGenerator
-	METHOD a getTargetGenerationRadius (Lbsd;)I
-		ARG 0 status
-	METHOD a get (Ljava/lang/String;)Lbsd;
-		ARG 0 id
-	METHOD a register (Ljava/lang/String;Lbsd;IZLbsd$b;Lbsd$a;)Lbsd;
-		ARG 0 name
-		ARG 1 status
-		ARG 2 taskMargin
-		ARG 5 task
-	METHOD a register (Ljava/lang/String;Lbsd;IZLbsd$b;Lbsd$c;)Lbsd;
-		ARG 0 name
-		ARG 1 previousStatus
-		ARG 2 taskMargin
-		ARG 4 type
-		ARG 5 task
-	METHOD b getMaxTargetGenerationRadius ()I
-	METHOD b isAfter (Lbsd;)Z
-	METHOD c getIndex ()I
-	METHOD d getName ()Ljava/lang/String;
-	METHOD e getPrevious ()Lbsd;
-	METHOD f getTaskMargin ()I
-	METHOD g getChunkType ()Lbsd$b;
-	METHOD h isSurfaceGenerated ()Z
-	METHOD i getLightStatus ()Lbsd;
+	CLASS class_4305 NoGenTask

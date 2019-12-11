@@ -1,17 +1,9 @@
-CLASS bl net/minecraft/advancement/criterion/RecipeUnlockedCriterion
-	CLASS bl$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a handle (Lazn;)V
-		METHOD a addCondition (Lu$a;)V
-		METHOD b removeCondition (Lu$a;)V
-	CLASS bl$b Conditions
-		FIELD a recipe Lqd;
-		METHOD a matches (Lazn;)Z
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;Lazn;)V
+CLASS net/minecraft/class_2119 net/minecraft/advancement/criterion/RecipeUnlockedCriterion
+	FIELD field_9738 ID Lnet/minecraft/class_2960;
+	METHOD method_9107 trigger (Lnet/minecraft/class_3222;Lnet/minecraft/class_1860;)V
 		ARG 1 player
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbl$b;
-		ARG 1 obj
+		ARG 2 recipe
+	CLASS class_2121 Conditions
+		FIELD field_9742 recipe Lnet/minecraft/class_2960;
+		METHOD method_9112 matches (Lnet/minecraft/class_1860;)Z
+			ARG 1 recipe

@@ -1,8 +1,6 @@
-CLASS cpb net/minecraft/client/gl/GlProgramManager
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b INSTANCE Lcpb;
-	METHOD a init ()V
-	METHOD a deleteProgram (Lcoz;)V
-	METHOD b getInstance ()Lcpb;
-	METHOD b linkProgram (Lcoz;)V
-	METHOD c createProgram ()I
+CLASS net/minecraft/class_285 net/minecraft/client/gl/GlProgramManager
+	FIELD field_1551 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD method_1304 deleteProgram (Lnet/minecraft/class_3679;)V
+	METHOD method_1306 createProgram ()I
+	METHOD method_1307 linkProgram (Lnet/minecraft/class_3679;)V
+	METHOD method_22094 useProgram (I)V

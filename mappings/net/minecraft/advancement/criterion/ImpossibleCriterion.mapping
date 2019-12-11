@@ -1,5 +1,3 @@
-CLASS aw net/minecraft/advancement/criterion/ImpossibleCriterion
-	CLASS aw$a Conditions
-	FIELD a ID Lqd;
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Law$a;
-		ARG 1 obj
+CLASS net/minecraft/class_2062 net/minecraft/advancement/criterion/ImpossibleCriterion
+	FIELD field_9624 ID Lnet/minecraft/class_2960;
+	CLASS class_2063 Conditions

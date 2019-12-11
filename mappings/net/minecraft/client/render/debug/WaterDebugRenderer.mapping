@@ -1,6 +1,4 @@
-CLASS dio net/minecraft/client/render/debug/WaterDebugRenderer
-	FIELD a client Lcpy;
-	FIELD b player Larj;
-	FIELD c playerX D
-	FIELD d playerY D
-	FIELD e playerZ D
+CLASS net/minecraft/class_872 net/minecraft/client/render/debug/WaterDebugRenderer
+	FIELD field_4629 client Lnet/minecraft/class_310;
+	METHOD <init> (Lnet/minecraft/class_310;)V
+		ARG 1 client

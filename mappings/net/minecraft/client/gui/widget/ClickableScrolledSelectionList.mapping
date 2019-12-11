@@ -1,3 +1,0 @@
-CLASS csy net/minecraft/client/gui/widget/ClickableScrolledSelectionList
-	METHOD c width ()I
-	METHOD j getScrollY ()D

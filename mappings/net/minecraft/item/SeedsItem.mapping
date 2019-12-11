@@ -1,2 +1,0 @@
-CLASS axv net/minecraft/item/SeedsItem
-	FIELD a crop Lbqk;

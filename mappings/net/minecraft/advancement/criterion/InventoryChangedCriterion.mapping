@@ -1,22 +1,18 @@
-CLASS ax net/minecraft/advancement/criterion/InventoryChangedCriterion
-	CLASS ax$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a handle (Lari;)V
-		METHOD a addCondition (Lu$a;)V
-		METHOD b removeCondition (Lu$a;)V
-	CLASS ax$b Conditions
-		FIELD a occupied Lbf$d;
-		FIELD b full Lbf$d;
-		FIELD c empty Lbf$d;
-		FIELD d items [Laz;
-		METHOD a matches (Lari;)Z
-		METHOD a items ([Laz;)Lax$b;
-		METHOD a items ([Lbck;)Lax$b;
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;Lari;)V
+CLASS net/minecraft/class_2066 net/minecraft/advancement/criterion/InventoryChangedCriterion
+	FIELD field_9625 ID Lnet/minecraft/class_2960;
+	METHOD method_8950 trigger (Lnet/minecraft/class_3222;Lnet/minecraft/class_1661;)V
 		ARG 1 player
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lax$b;
-		ARG 1 obj
+		ARG 2 inventory
+	CLASS class_2068 Conditions
+		FIELD field_9629 occupied Lnet/minecraft/class_2096$class_2100;
+		FIELD field_9630 full Lnet/minecraft/class_2096$class_2100;
+		FIELD field_9631 empty Lnet/minecraft/class_2096$class_2100;
+		FIELD field_9632 items [Lnet/minecraft/class_2073;
+		METHOD <init> (Lnet/minecraft/class_2096$class_2100;Lnet/minecraft/class_2096$class_2100;Lnet/minecraft/class_2096$class_2100;[Lnet/minecraft/class_2073;)V
+			ARG 4 items
+		METHOD method_8957 items ([Lnet/minecraft/class_2073;)Lnet/minecraft/class_2066$class_2068;
+			ARG 0 items
+		METHOD method_8958 matches (Lnet/minecraft/class_1661;)Z
+			ARG 1 inventory
+		METHOD method_8959 items ([Lnet/minecraft/class_1935;)Lnet/minecraft/class_2066$class_2068;
+			ARG 0 items

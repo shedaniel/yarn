@@ -1,2 +1,0 @@
-CLASS bck net/minecraft/item/ItemProvider
-	METHOD h getItem ()Lawy;

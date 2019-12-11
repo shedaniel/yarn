@@ -1,8 +1,12 @@
-CLASS cjh net/minecraft/util/BoundedIntUnaryOperator
-	CLASS cjh$a Serializer
-	FIELD a min Ljava/lang/Integer;
-	FIELD b max Ljava/lang/Integer;
-	FIELD c operator Ljava/util/function/IntUnaryOperator;
-	METHOD a createMin (I)Lcjh;
-	METHOD a create (II)Lcjh;
-	METHOD b createMax (I)Lcjh;
+CLASS net/minecraft/class_42 net/minecraft/util/BoundedIntUnaryOperator
+	FIELD field_919 operator Ljava/util/function/IntUnaryOperator;
+	FIELD field_920 max Ljava/lang/Integer;
+	FIELD field_921 min Ljava/lang/Integer;
+	METHOD method_277 createMax (I)Lnet/minecraft/class_42;
+	METHOD method_280 createMin (I)Lnet/minecraft/class_42;
+	METHOD method_282 create (II)Lnet/minecraft/class_42;
+	CLASS class_43 Serializer
+		METHOD deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			ARG 1 functionJson
+			ARG 2 unused
+			ARG 3 context

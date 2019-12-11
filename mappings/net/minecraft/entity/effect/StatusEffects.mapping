@@ -1,2 +1,2 @@
-CLASS agx net/minecraft/entity/effect/StatusEffects
-	METHOD a register (ILjava/lang/String;Lagu;)Lagu;
+CLASS net/minecraft/class_1294 net/minecraft/entity/effect/StatusEffects
+	METHOD method_5594 register (ILjava/lang/String;Lnet/minecraft/class_1291;)Lnet/minecraft/class_1291;

@@ -1,25 +1,22 @@
-CLASS ab net/minecraft/advancement/criterion/BredAnimalsCriterion
-	CLASS ab$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a addCondition (Lu$a;)V
-		METHOD a handle (Lut;Lami;Lami;Lagz;)V
-			ARG 1 parent1
-			ARG 2 parent2
-			ARG 3 child
-		METHOD b removeCondition (Lu$a;)V
-	CLASS ab$b Conditions
-		FIELD a parent Las;
-		FIELD b partner Las;
-		FIELD c child Las;
-		METHOD a matches (Lut;Lami;Lami;Lagz;)Z
-		METHOD c any ()Lab$b;
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;Lami;Lami;Lagz;)V
+CLASS net/minecraft/class_196 net/minecraft/advancement/criterion/BredAnimalsCriterion
+	FIELD field_1271 ID Lnet/minecraft/class_2960;
+	METHOD method_855 trigger (Lnet/minecraft/class_3222;Lnet/minecraft/class_1429;Lnet/minecraft/class_1429;Lnet/minecraft/class_1296;)V
 		ARG 1 player
-		ARG 2 parent1
-		ARG 3 parent2
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lab$b;
-		ARG 1 obj
+		ARG 2 parent
+		ARG 3 partner
+		ARG 4 child
+	CLASS class_198 Conditions
+		FIELD field_1275 child Lnet/minecraft/class_2048;
+		FIELD field_1276 parent Lnet/minecraft/class_2048;
+		FIELD field_1277 partner Lnet/minecraft/class_2048;
+		METHOD <init> (Lnet/minecraft/class_2048;Lnet/minecraft/class_2048;Lnet/minecraft/class_2048;)V
+			ARG 1 parent
+			ARG 2 partner
+			ARG 3 child
+		METHOD method_860 any ()Lnet/minecraft/class_196$class_198;
+		METHOD method_861 create (Lnet/minecraft/class_2048$class_2049;)Lnet/minecraft/class_196$class_198;
+		METHOD method_862 matches (Lnet/minecraft/class_3222;Lnet/minecraft/class_1429;Lnet/minecraft/class_1429;Lnet/minecraft/class_1296;)Z
+			ARG 1 player
+			ARG 2 parent
+			ARG 3 partner
+			ARG 4 child

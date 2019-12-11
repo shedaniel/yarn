@@ -1,3 +1,0 @@
-CLASS cgd net/minecraft/fluid/WaterFluid
-	CLASS cgd$a Flowing
-	CLASS cgd$b Still

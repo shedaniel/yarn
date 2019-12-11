@@ -1,7 +1,7 @@
-CLASS ddx net/minecraft/client/particle/WaterSuspendParticle
-	CLASS ddx$a UnderwaterFactory
-	METHOD <init> (Lbcl;DDDDDD)V
-		ARG 1 world
+CLASS net/minecraft/class_723 net/minecraft/client/particle/WaterSuspendParticle
+	METHOD <init> (Lnet/minecraft/class_1937;DDD)V
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
+	CLASS class_724 UnderwaterFactory
+		FIELD field_17879 spriteProvider Lnet/minecraft/class_4002;

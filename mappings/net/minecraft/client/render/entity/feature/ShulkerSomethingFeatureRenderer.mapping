@@ -1,3 +1,0 @@
-CLASS dnn net/minecraft/client/render/entity/feature/ShulkerSomethingFeatureRenderer
-	METHOD <init> (Ldlh;)V
-		ARG 1 context

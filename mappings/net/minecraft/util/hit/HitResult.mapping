@@ -1,10 +1,7 @@
-CLASS cmp net/minecraft/util/hit/HitResult
-	CLASS cmp$a Type
-		FIELD a NONE Lcmp$a;
-		FIELD b BLOCK Lcmp$a;
-		FIELD c ENTITY Lcmp$a;
-	FIELD a pos Lcmr;
-	METHOD <init> (Lcmr;)V
+CLASS net/minecraft/class_239 net/minecraft/util/hit/HitResult
+	FIELD field_1329 pos Lnet/minecraft/class_243;
+	METHOD <init> (Lnet/minecraft/class_243;)V
 		ARG 1 pos
-	METHOD c getType ()Lcmp$a;
-	METHOD e getPos ()Lcmr;
+	METHOD method_17783 getType ()Lnet/minecraft/class_239$class_240;
+	METHOD method_17784 getPos ()Lnet/minecraft/class_243;
+	CLASS class_240 Type

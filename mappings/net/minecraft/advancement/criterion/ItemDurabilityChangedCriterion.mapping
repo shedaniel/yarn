@@ -1,20 +1,17 @@
-CLASS ay net/minecraft/advancement/criterion/ItemDurabilityChangedCriterion
-	CLASS ay$a Handler
-		FIELD a manager Lqn;
-		FIELD b conditions Ljava/util/Set;
-		METHOD a isEmpty ()Z
-		METHOD a handle (Laxd;I)V
-		METHOD a addCondition (Lu$a;)V
-		METHOD b removeCondition (Lu$a;)V
-	CLASS ay$b Conditions
-		FIELD a item Laz;
-		FIELD b durability Lbf$d;
-		FIELD c delta Lbf$d;
-		METHOD a matches (Laxd;I)Z
-	FIELD a ID Lqd;
-	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lut;Laxd;I)V
+CLASS net/minecraft/class_2069 net/minecraft/advancement/criterion/ItemDurabilityChangedCriterion
+	FIELD field_9633 ID Lnet/minecraft/class_2960;
+	METHOD method_8960 trigger (Lnet/minecraft/class_3222;Lnet/minecraft/class_1799;I)V
 		ARG 1 player
-		ARG 2 item
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lay$b;
-		ARG 1 obj
+		ARG 2 stack
+		ARG 3 damage
+	CLASS class_2071 Conditions
+		FIELD field_9637 item Lnet/minecraft/class_2073;
+		FIELD field_9638 durability Lnet/minecraft/class_2096$class_2100;
+		FIELD field_9639 delta Lnet/minecraft/class_2096$class_2100;
+		METHOD <init> (Lnet/minecraft/class_2073;Lnet/minecraft/class_2096$class_2100;Lnet/minecraft/class_2096$class_2100;)V
+			ARG 1 item
+		METHOD method_8967 create (Lnet/minecraft/class_2073;Lnet/minecraft/class_2096$class_2100;)Lnet/minecraft/class_2069$class_2071;
+			ARG 0 item
+		METHOD method_8968 matches (Lnet/minecraft/class_1799;I)Z
+			ARG 1 stack
+			ARG 2 damage

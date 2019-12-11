@@ -1,91 +1,93 @@
-CLASS cga net/minecraft/block/Material
-	CLASS cga$a Builder
-		FIELD a pistonBehavior Lcgc;
-		FIELD b suffocates Z
-		FIELD c burnable Z
-		FIELD d breakByHand Z
-		FIELD e liquid Z
-		FIELD f flag6 Z
-		FIELD g flag7 Z
-		FIELD h color Lcgb;
-		FIELD i flag5 Z
-		METHOD <init> (Lcgb;)V
-			ARG 1 color
-		METHOD a liquid ()Lcga$a;
-		METHOD b setFlag7 ()Lcga$a;
-		METHOD c suffocates ()Lcga$a;
-		METHOD d requiresTool ()Lcga$a;
-		METHOD e burnable ()Lcga$a;
-		METHOD f replaceable ()Lcga$a;
-		METHOD g destroyedByPiston ()Lcga$a;
-		METHOD h blocksPistons ()Lcga$a;
-		METHOD i build ()Lcga;
-		METHOD j setFlag5 ()Lcga$a;
-	FIELD A WOOL Lcga;
-	FIELD B TNT Lcga;
-	FIELD C LEAVES Lcga;
-	FIELD D GLASS Lcga;
-	FIELD E ICE Lcga;
-	FIELD F CACTUS Lcga;
-	FIELD G STONE Lcga;
-	FIELD H METAL Lcga;
-	FIELD I SNOW_BLOCK Lcga;
-	FIELD J ANVIL Lcga;
-	FIELD K BARRIER Lcga;
-	FIELD L PISTON Lcga;
-	FIELD M UNUSED_PLANT Lcga;
-	FIELD N PUMPKIN Lcga;
-	FIELD O DRAGON_EGG Lcga;
-	FIELD P CAKE Lcga;
-	FIELD Q color Lcgb;
-	FIELD R pistonBehavior Lcgc;
-	FIELD S suffocates Z
-	FIELD T burnable Z
-	FIELD U breakByHand Z
-	FIELD V liquid Z
-	FIELD W flag5 Z
-	FIELD X replaceable Z
-	FIELD Y flag7 Z
-	FIELD a AIR Lcga;
-	FIELD b STRUCTURE_VOID Lcga;
-	FIELD c PORTAL Lcga;
-	FIELD d CARPET Lcga;
-	FIELD e PLANT Lcga;
-	FIELD f UNDERWATER_PLANT Lcga;
-	FIELD g REPLACEABLE_PLANT Lcga;
-	FIELD h SEAGRASS Lcga;
-	FIELD i WATER Lcga;
-	FIELD j BUBBLE_COLUMN Lcga;
-	FIELD k LAVA Lcga;
-	FIELD l SNOW Lcga;
-	FIELD m FIRE Lcga;
-	FIELD n PART Lcga;
-	FIELD o COBWEB Lcga;
-	FIELD p REDSTONE_LAMP Lcga;
-	FIELD q CLAY Lcga;
-	FIELD r EARTH Lcga;
-	FIELD s ORGANIC Lcga;
-	FIELD t PACKED_ICE Lcga;
-	FIELD u SAND Lcga;
-	FIELD v SPONGE Lcga;
-	FIELD w SHULKER_BOX Lcga;
-	FIELD x WOOD Lcga;
-	FIELD y BAMBOO_SAPLING Lcga;
-	FIELD z BAMBOO Lcga;
-	METHOD <init> (Lcgb;ZZZZZZZLcgc;)V
+CLASS net/minecraft/class_3614 net/minecraft/block/Material
+	FIELD field_15911 solid Z
+	FIELD field_15912 breakByHand Z
+	FIELD field_15913 COBWEB Lnet/minecraft/class_3614;
+	FIELD field_15914 STONE Lnet/minecraft/class_3614;
+	FIELD field_15915 BUBBLE_COLUMN Lnet/minecraft/class_3614;
+	FIELD field_15916 SAND Lnet/minecraft/class_3614;
+	FIELD field_15917 SPONGE Lnet/minecraft/class_3614;
+	FIELD field_15918 REDSTONE_LAMP Lnet/minecraft/class_3614;
+	FIELD field_15919 PORTAL Lnet/minecraft/class_3614;
+	FIELD field_15920 WATER Lnet/minecraft/class_3614;
+	FIELD field_15921 UNUSED_PLANT Lnet/minecraft/class_3614;
+	FIELD field_15922 LAVA Lnet/minecraft/class_3614;
+	FIELD field_15923 LEAVES Lnet/minecraft/class_3614;
+	FIELD field_15924 PART Lnet/minecraft/class_3614;
+	FIELD field_15925 CACTUS Lnet/minecraft/class_3614;
+	FIELD field_15926 SEAGRASS Lnet/minecraft/class_3614;
+	FIELD field_15927 STRUCTURE_VOID Lnet/minecraft/class_3614;
+	FIELD field_15928 PACKED_ICE Lnet/minecraft/class_3614;
+	FIELD field_15929 liquid Z
+	FIELD field_15930 EGG Lnet/minecraft/class_3614;
+	FIELD field_15931 WOOL Lnet/minecraft/class_3614;
+	FIELD field_15932 WOOD Lnet/minecraft/class_3614;
+	FIELD field_15933 PISTON Lnet/minecraft/class_3614;
+	FIELD field_15934 SNOW_BLOCK Lnet/minecraft/class_3614;
+	FIELD field_15935 PLANT Lnet/minecraft/class_3614;
+	FIELD field_15936 CLAY Lnet/minecraft/class_3614;
+	FIELD field_15937 CAKE Lnet/minecraft/class_3614;
+	FIELD field_15938 BAMBOO_SAPLING Lnet/minecraft/class_3614;
+	FIELD field_15939 blocksLight Z
+	FIELD field_15940 blocksMovement Z
+	FIELD field_15941 EARTH Lnet/minecraft/class_3614;
+	FIELD field_15942 GLASS Lnet/minecraft/class_3614;
+	FIELD field_15943 FIRE Lnet/minecraft/class_3614;
+	FIELD field_15944 color Lnet/minecraft/class_3620;
+	FIELD field_15945 ORGANIC Lnet/minecraft/class_3614;
+	FIELD field_15946 BAMBOO Lnet/minecraft/class_3614;
+	FIELD field_15947 UNDERWATER_PLANT Lnet/minecraft/class_3614;
+	FIELD field_15948 SNOW Lnet/minecraft/class_3614;
+	FIELD field_15949 ANVIL Lnet/minecraft/class_3614;
+	FIELD field_15950 replaceable Z
+	FIELD field_15951 burnable Z
+	FIELD field_15952 BARRIER Lnet/minecraft/class_3614;
+	FIELD field_15953 METAL Lnet/minecraft/class_3614;
+	FIELD field_15954 PUMPKIN Lnet/minecraft/class_3614;
+	FIELD field_15955 TNT Lnet/minecraft/class_3614;
+	FIELD field_15956 REPLACEABLE_PLANT Lnet/minecraft/class_3614;
+	FIELD field_15957 CARPET Lnet/minecraft/class_3614;
+	FIELD field_15958 ICE Lnet/minecraft/class_3614;
+	FIELD field_15959 AIR Lnet/minecraft/class_3614;
+	FIELD field_15960 pistonBehavior Lnet/minecraft/class_3619;
+	FIELD field_17008 SHULKER_BOX Lnet/minecraft/class_3614;
+	METHOD <init> (Lnet/minecraft/class_3620;ZZZZZZZLnet/minecraft/class_3619;)V
 		ARG 1 color
 		ARG 2 liquid
-		ARG 3 flag7
-		ARG 4 suffocates
-		ARG 5 flag5
-		ARG 6 flag3
+		ARG 3 solid
+		ARG 4 blocksMovement
+		ARG 5 blocksLight
+		ARG 6 breakByHand
 		ARG 7 burnable
 		ARG 8 replaceable
 		ARG 9 pistonBehavior
-	METHOD a isLiquid ()Z
-	METHOD c suffocates ()Z
-	METHOD d isBurnable ()Z
-	METHOD e isReplaceable ()Z
-	METHOD g canBreakByHand ()Z
-	METHOD h getPistonBehavior ()Lcgc;
-	METHOD i getColor ()Lcgb;
+	METHOD method_15797 isLiquid ()Z
+	METHOD method_15798 getPistonBehavior ()Lnet/minecraft/class_3619;
+	METHOD method_15799 isSolid ()Z
+	METHOD method_15800 isReplaceable ()Z
+	METHOD method_15801 blocksMovement ()Z
+	METHOD method_15802 isBurnable ()Z
+	METHOD method_15803 getColor ()Lnet/minecraft/class_3620;
+	METHOD method_15804 blocksLight ()Z
+	METHOD method_15805 canBreakByHand ()Z
+	CLASS class_3615 Builder
+		FIELD field_15961 color Lnet/minecraft/class_3620;
+		FIELD field_15962 blocksLight Z
+		FIELD field_15963 solid Z
+		FIELD field_15964 replaceable Z
+		FIELD field_15965 liquid Z
+		FIELD field_15966 breakByHand Z
+		FIELD field_15967 burnable Z
+		FIELD field_15968 pistonBehavior Lnet/minecraft/class_3619;
+		FIELD field_15969 blocksMovement Z
+		METHOD <init> (Lnet/minecraft/class_3620;)V
+			ARG 1 color
+		METHOD method_15806 notSolid ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15807 burnable ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15809 destroyedByPiston ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15810 liquid ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15811 allowsMovement ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15812 lightPassesThrough ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15813 build ()Lnet/minecraft/class_3614;
+		METHOD method_15814 requiresTool ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15815 replaceable ()Lnet/minecraft/class_3614$class_3615;
+		METHOD method_15816 blocksPistons ()Lnet/minecraft/class_3614$class_3615;

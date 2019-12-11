@@ -1,3 +1,0 @@
-CLASS drq net/minecraft/client/audio/ListenerSoundInstance
-	METHOD a onSoundPlayed (Ldqv;Ldrs;)V
-		ARG 1 sound
