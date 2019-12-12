@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2588 net/minecraft/text/TranslatableText
+CLASS net/minecraft/class_2588 net/minecraft/text/bestname
 	FIELD field_11870 EMPTY_LANGUAGE Lnet/minecraft/class_2477;
 	FIELD field_11871 languageReloadTimestamp J
 	FIELD field_11872 ARG_FORMAT Ljava/util/regex/Pattern;
