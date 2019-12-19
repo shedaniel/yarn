@@ -8,7 +8,7 @@ CLASS net/minecraft/class_2586 net/minecraft/block/entity/BlockEntity
 	FIELD field_19314 invalid Z
 	METHOD <init> (Lnet/minecraft/class_2591;)V
 		ARG 1 type
-	METHOD method_10996 cancelRemoval ()V
+	METHOD method_10996 markPlaced ()V
 	METHOD method_10997 getWorld ()Lnet/minecraft/class_1937;
 	METHOD method_10998 setPos (Lnet/minecraft/class_2338;)V
 	METHOD method_10999 writeIdentifyingData (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
