@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2564 net/minecraft/text/Texts
+CLASS net/minecraft/class_2564 net/minecraft/text/aaa
 	METHOD method_10881 parse (Lnet/minecraft/class_2168;Lnet/minecraft/class_2561;Lnet/minecraft/class_1297;I)Lnet/minecraft/class_2561;
 		ARG 0 source
 		ARG 1 text
