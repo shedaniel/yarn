@@ -20,6 +20,6 @@ CLASS net/minecraft/class_2564 net/minecraft/text/aaa
 		ARG 1 transformer
 	METHOD method_10888 joinOrdered (Ljava/util/Collection;)Lnet/minecraft/class_2561;
 		ARG 0 strings
-	METHOD method_10889 setStyleIfAbsent (Lnet/minecraft/class_2561;Lnet/minecraft/class_2583;)Lnet/minecraft/class_2561;
+	METHOD method_10889 asdasd (Lnet/minecraft/class_2561;Lnet/minecraft/class_2583;)Lnet/minecraft/class_2561;
 		ARG 0 text
 		ARG 1 style
