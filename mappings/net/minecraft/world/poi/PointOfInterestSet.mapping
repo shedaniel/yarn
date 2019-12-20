@@ -21,3 +21,4 @@ CLASS net/minecraft/class_4157 net/minecraft/world/poi/PointOfInterestSet
 		ARG 1 poi
 	METHOD method_20353 updatePointsOfInterest (Ljava/util/function/Consumer;)V
 	METHOD method_20395 clear ()V
+	METHOD method_22444 isValid ()Z
