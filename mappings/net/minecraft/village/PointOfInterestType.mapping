@@ -40,3 +40,4 @@ CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
 		ARG 3 completionCondition
 		ARG 4 searchDistance
 	METHOD method_21648 getSearchDistance ()I
+	METHOD method_21648 getPathfindingRadius ()I
