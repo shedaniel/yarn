@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
+CLASS net/minecraft/class_4158 net/minecraft/world/poi/PointOfInterestType
 	FIELD field_18500 IS_USED_BY_PROFESSION Ljava/util/function/Predicate;
 	FIELD field_18501 ALWAYS_TRUE Ljava/util/function/Predicate;
 	FIELD field_18519 id Ljava/lang/String;
