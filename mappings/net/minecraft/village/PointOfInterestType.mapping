@@ -19,7 +19,7 @@ CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
 		ARG 2 workStationStates
 		ARG 3 ticketCount
 		ARG 4 completionCondition
-		ARG 5 searchDistance
+		ARG 5 pathfindingRadius
 	METHOD method_19161 getTicketCount ()I
 	METHOD method_19164 getCompletionCondition ()Ljava/util/function/Predicate;
 	METHOD method_19516 from (Lnet/minecraft/class_2680;)Ljava/util/Optional;
