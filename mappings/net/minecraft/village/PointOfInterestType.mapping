@@ -16,7 +16,7 @@ CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
 	METHOD <init> (Ljava/lang/String;Ljava/util/Set;ILjava/util/function/Predicate;I)V
 		ARG 1 id
 		ARG 2 workStationStates
-		ARG 3 ticketCount
+		ARG 3 ff
 		ARG 4 completionCondition
 		ARG 5 searchDistance
 	METHOD method_19161 getTicketCount ()I
