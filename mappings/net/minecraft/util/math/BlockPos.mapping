@@ -32,7 +32,7 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 	METHOD method_10062 toImmutable ()Lnet/minecraft/class_2338;
 	METHOD method_10063 asLong ()J
 	METHOD method_10064 asLong (III)J
-		ARG 0 x
+		ARG 0 sgh
 		ARG 1 y
 		ARG 2 z
 	METHOD method_10067 west ()Lnet/minecraft/class_2338;
