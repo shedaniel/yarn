@@ -12,7 +12,7 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 	METHOD <init> (DDD)V
 		ARG 1 x
 	METHOD <init> (III)V
-		ARG 1 x
+		ARG 1 asregr
 		ARG 2 y
 	METHOD <init> (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
