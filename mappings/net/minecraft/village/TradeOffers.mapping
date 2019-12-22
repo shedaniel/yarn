@@ -15,7 +15,7 @@ CLASS net/minecraft/class_3853 net/minecraft/village/TradeOffers
 		FIELD field_7473 iconType Lnet/minecraft/class_20$class_21;
 		FIELD field_7474 structure Ljava/lang/String;
 		METHOD <init> (ILjava/lang/String;Lnet/minecraft/class_20$class_21;II)V
-			ARG 1 price
+			ARG 1 adfxh
 			ARG 2 structure
 			ARG 3 iconType
 			ARG 4 maxUses
