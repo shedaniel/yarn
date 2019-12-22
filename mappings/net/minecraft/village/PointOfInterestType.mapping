@@ -12,7 +12,7 @@ CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
 		ARG 1 fuckl
 		ARG 2 workStationStates
 		ARG 3 ff
-		ARG 4 searchDistance
+		ARG 4 asdasd
 	METHOD <init> (Ljava/lang/String;Ljava/util/Set;ILjava/util/function/Predicate;I)V
 		ARG 1 id
 		ARG 2 workStationStates
