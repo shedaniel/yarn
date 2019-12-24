@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_4620 net/minecraft/datafixers/fixes/PointOfInterestRenameFIx
 	METHOD method_23303 rename (Ljava/lang/String;)Ljava/lang/String;
+	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+		ARG 2 ok
