@@ -31,7 +31,7 @@ CLASS net/minecraft/class_4158 net/minecraft/village/PointOfInterestType
 		ARG 0 id
 		ARG 1 workStationStates
 		ARG 2 jj
-		ARG 3 searchDistance
+		ARG 3 ok
 	METHOD method_20358 register (Ljava/lang/String;Ljava/util/Set;ILjava/util/function/Predicate;I)Lnet/minecraft/class_4158;
 		ARG 0 id
 		ARG 1 workStationStates
