@@ -32,7 +32,7 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 		ARG 0 pitch
 		ARG 1 yaw
 	METHOD method_1031 add (DDD)Lnet/minecraft/class_243;
-		ARG 1 x
+		ARG 1 aaa
 		ARG 2 kk
 		ARG 3 y
 		ARG 5 z
