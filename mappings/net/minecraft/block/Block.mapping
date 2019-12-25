@@ -81,6 +81,10 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 		ARG 0 shape
 		ARG 1 side
 	METHOD method_9502 onEntityLand (Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;)V
+		COMMENT  Foo {@link net.minecraft.block.entity.BlockEntity}
+		COMMENT  bar
+		COMMENT  baz
+		COMMENT 
 		ARG 1 world
 		ARG 2 entity
 	METHOD method_9503 getBlockFromItem (Lnet/minecraft/class_1792;)Lnet/minecraft/class_2248;
