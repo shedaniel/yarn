@@ -17,7 +17,7 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 	METHOD method_1023 subtract (DDD)Lnet/minecraft/class_243;
 		ARG 1 sdfg
 		ARG 2 asdf
-		ARG 3 y
+		ARG 3 sdfhh
 		ARG 5 z
 	METHOD method_1024 rotateY (F)Lnet/minecraft/class_243;
 	METHOD method_1025 squaredDistanceTo (Lnet/minecraft/class_243;)D
