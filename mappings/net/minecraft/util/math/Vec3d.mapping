@@ -33,6 +33,7 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 		ARG 1 yaw
 	METHOD method_1031 add (DDD)Lnet/minecraft/class_243;
 		ARG 1 x
+		ARG 2 ok
 		ARG 3 y
 		ARG 5 z
 	METHOD method_1032 floorAlongAxes (Ljava/util/EnumSet;)Lnet/minecraft/class_243;
