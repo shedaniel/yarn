@@ -291,9 +291,6 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 		ARG 1 state
 	METHOD method_9574 getPickStack (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_1799;
 		COMMENT fee ber baz
-		COMMENT 
-		COMMENT 
-		COMMENT 
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 state
