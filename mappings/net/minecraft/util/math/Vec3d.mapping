@@ -39,7 +39,7 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 	METHOD method_1033 length ()D
 	METHOD method_1034 fromPolar (Lnet/minecraft/class_241;)Lnet/minecraft/class_243;
 		ARG 0 polar
-	METHOD method_1035 reverseSubtract (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
+	METHOD method_1035 ss (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
 	METHOD method_1036 crossProduct (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
 	METHOD method_1037 rotateX (F)Lnet/minecraft/class_243;
 	METHOD method_18043 getComponentAlongAxis (Lnet/minecraft/class_2350$class_2351;)D
