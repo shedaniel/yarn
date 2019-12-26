@@ -202,6 +202,8 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 	METHOD method_9543 hasDynamicBounds ()Z
 	METHOD method_9545 getFluidState (Lnet/minecraft/class_2680;)Lnet/minecraft/class_3610;
 		ARG 1 state
+			COMMENT doc
+			COMMENT deck
 	METHOD method_9548 onEntityCollision (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1297;)V
 		ARG 1 state
 		ARG 2 world
