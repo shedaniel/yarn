@@ -20,7 +20,7 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 		ARG 5 z
 	METHOD method_1024 rotateY (F)Lnet/minecraft/class_243;
 	METHOD method_1025 squaredDistanceTo (Lnet/minecraft/class_243;)D
-	METHOD method_1026 dotProduct (Lnet/minecraft/class_243;)D
+	METHOD method_1026 foo (Lnet/minecraft/class_243;)D
 	METHOD method_1027 lengthSquared ()D
 	METHOD method_1028 squaredDistanceTo (DDD)D
 		ARG 1 x
