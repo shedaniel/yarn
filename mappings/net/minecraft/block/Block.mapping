@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_2248 net/minecraft/block/Block
+	COMMENT dack
 	FIELD field_10634 lightLevel I
 		COMMENT dook
 	FIELD field_10635 material Lnet/minecraft/class_3614;
