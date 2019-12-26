@@ -293,6 +293,7 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 		COMMENT fee ber baz
 		COMMENT 
 		COMMENT 
+		COMMENT 
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 state
