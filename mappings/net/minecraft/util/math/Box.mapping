@@ -2,7 +2,7 @@ CLASS net/minecraft/class_238 net/minecraft/util/math/Box
 	FIELD field_1320 x2 D
 	FIELD field_1321 z1 D
 	FIELD field_1322 y1 D
-	FIELD field_1323 x1 D
+	FIELD field_1323 bar D
 	FIELD field_1324 z2 D
 	FIELD field_1325 y2 D
 	METHOD <init> (DDDDDD)V
