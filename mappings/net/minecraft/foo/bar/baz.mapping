@@ -73,7 +73,7 @@ CLASS net/minecraft/class_238 net/minecraft/foo/bar/baz
 	METHOD method_17941 getZLength ()D
 	METHOD method_18804 stretch (Lnet/minecraft/class_243;)Lnet/minecraft/class_238;
 		ARG 1 scale
-	METHOD method_19316 from (Lnet/minecraft/class_3341;)Lnet/minecraft/class_238;
+	METHOD method_19316 lez (Lnet/minecraft/class_3341;)Lnet/minecraft/class_238;
 		ARG 0 mutable
 	METHOD method_989 offset (DDD)Lnet/minecraft/class_238;
 		ARG 1 x
