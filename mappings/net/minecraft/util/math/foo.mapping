@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2265 net/minecraft/util/math/ColumnPos
+CLASS net/minecraft/class_2265 net/minecraft/util/math/foo
 	FIELD field_10707 z I
 	FIELD field_10708 x I
 	METHOD <init> (II)V
