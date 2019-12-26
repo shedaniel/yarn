@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_238 net/minecraft/util/math/Box
+CLASS net/minecraft/class_238 net/minecraft/util/math/lel
 	FIELD field_1320 x2 D
 	FIELD field_1321 z1 D
 	FIELD field_1322 y1 D
