@@ -11,7 +11,7 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 	FIELD field_10643 soundGroup Lnet/minecraft/class_2498;
 	FIELD field_10644 FACINGS [Lnet/minecraft/class_2350;
 	FIELD field_10645 dynamicBounds Z
-	FIELD field_10646 defaultState Lnet/minecraft/class_2680;
+	FIELD field_10646 ok Lnet/minecraft/class_2680;
 	FIELD field_10647 stateManager Lnet/minecraft/class_2689;
 	FIELD field_10648 resistance F
 	FIELD field_10649 FACE_CULL_MAP Ljava/lang/ThreadLocal;
