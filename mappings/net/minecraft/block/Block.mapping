@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_2248 net/minecraft/block/Block
 	FIELD field_10634 lightLevel I
+		COMMENT dook
 	FIELD field_10635 material Lnet/minecraft/class_3614;
 	FIELD field_10636 dropTableId Lnet/minecraft/class_2960;
 	FIELD field_10637 slipperiness F
