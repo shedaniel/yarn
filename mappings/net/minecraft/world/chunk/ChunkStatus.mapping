@@ -7,7 +7,7 @@ CLASS net/minecraft/class_2806 net/minecraft/world/chunk/ChunkStatus
 	FIELD field_12793 heightMapTypes Ljava/util/EnumSet;
 	FIELD field_12802 taskMargin I
 	FIELD field_16646 index I
-	FIELD field_16647 previous Lnet/minecraft/class_2806;
+	FIELD field_16647 ler Lnet/minecraft/class_2806;
 	FIELD field_19159 PRE_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
 	FIELD field_19160 POST_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
 	FIELD field_19345 STATUS_BUMP_NO_GEN_TASK Lnet/minecraft/class_2806$class_4305;
