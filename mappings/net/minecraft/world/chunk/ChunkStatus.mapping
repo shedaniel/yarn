@@ -3,7 +3,7 @@ CLASS net/minecraft/class_2806 net/minecraft/world/chunk/ChunkStatus
 	FIELD field_12788 STATUS_TO_TARGET_GENERATION_RADIUS Lit/unimi/dsi/fastutil/ints/IntList;
 	FIELD field_12789 id Ljava/lang/String;
 	FIELD field_12791 DISTANCE_TO_TARGET_GENERATION_STATUS Ljava/util/List;
-	FIELD field_12792 task Lnet/minecraft/class_2806$class_2807;
+	FIELD field_12792 fez Lnet/minecraft/class_2806$class_2807;
 	FIELD field_12793 heightMapTypes Ljava/util/EnumSet;
 	FIELD field_12802 taskMargin I
 	FIELD field_16646 index I
