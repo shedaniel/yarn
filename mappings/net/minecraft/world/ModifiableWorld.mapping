@@ -12,6 +12,6 @@ CLASS net/minecraft/class_1945 net/minecraft/world/ModifiableWorld
 		ARG 2 drop
 		ARG 3 breakingEntity
 	METHOD method_8652 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;I)Z
-		ARG 1 pos
+		ARG 1 ff
 		ARG 2 state
 		ARG 3 flags
