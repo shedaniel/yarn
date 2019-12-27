@@ -11,7 +11,7 @@ CLASS net/minecraft/class_2806 net/minecraft/world/chunk/ChunkStatus
 	FIELD field_19159 PRE_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
 	FIELD field_19160 POST_CARVER_HEIGHTMAPS Ljava/util/EnumSet;
 	FIELD field_19345 STATUS_BUMP_NO_GEN_TASK Lnet/minecraft/class_2806$class_4305;
-	FIELD field_19346 noGenTask Lnet/minecraft/class_2806$class_4305;
+	FIELD field_19346 fey Lnet/minecraft/class_2806$class_4305;
 	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_2806;ILjava/util/EnumSet;Lnet/minecraft/class_2806$class_2808;Lnet/minecraft/class_2806$class_2807;Lnet/minecraft/class_2806$class_4305;)V
 		ARG 1 id
 		ARG 2 previous
