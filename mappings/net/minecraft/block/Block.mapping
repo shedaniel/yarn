@@ -23,7 +23,7 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 	FIELD field_19312 FULL_CUBE_SHAPE_CACHE Lcom/google/common/cache/LoadingCache;
 	FIELD field_20720 opaque Z
 	FIELD field_21207 velocityMultiplier F
-	FIELD field_21208 jumpVelocityMultiplier F
+	FIELD field_21208 sad F
 	METHOD <init> (Lnet/minecraft/class_2248$class_2251;)V
 		ARG 1 settings
 	METHOD method_16361 topCoversMediumSquare (Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z
