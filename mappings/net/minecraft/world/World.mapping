@@ -197,7 +197,7 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 entityId
 		ARG 2 pos
 		ARG 3 progress
-	METHOD method_8518 isHeightInvalid (Lnet/minecraft/class_2338;)Z
+	METHOD method_8518 fg (Lnet/minecraft/class_2338;)Z
 		ARG 0 pos
 	METHOD method_8519 setRainGradient (F)V
 		ARG 1 rainGradient
