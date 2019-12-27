@@ -48,7 +48,7 @@ CLASS net/minecraft/class_4538 net/minecraft/world/WorldView
 	METHOD method_8393 isChunkLoaded (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkZ
-	METHOD method_8402 getChunk (IILnet/minecraft/class_2806;Z)Lnet/minecraft/class_2791;
+	METHOD method_8402 aaa (IILnet/minecraft/class_2806;Z)Lnet/minecraft/class_2791;
 		ARG 1 chunkX
 		ARG 2 chunkZ
 		ARG 3 leastStatus
