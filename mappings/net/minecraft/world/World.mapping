@@ -240,6 +240,6 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 13 tag
 	METHOD method_8554 setSpawnPos (Lnet/minecraft/class_2338;)V
 		ARG 1 pos
-	METHOD method_8558 isValid (Lnet/minecraft/class_2338;)Z
+	METHOD method_8558 sdfsdf (Lnet/minecraft/class_2338;)Z
 		ARG 0 pos
 	METHOD method_8560 tickTime ()V
