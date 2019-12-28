@@ -142,6 +142,7 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 area
 		ARG 2 block
 	METHOD method_8476 isHeightInvalid (I)Z
+		COMMENT barbaz
 		ARG 0 jhg
 	METHOD method_8477 canSetBlock (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
