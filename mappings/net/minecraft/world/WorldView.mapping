@@ -49,7 +49,7 @@ CLASS net/minecraft/class_4538 net/minecraft/world/WorldView
 		ARG 1 chunkX
 		ARG 2 chunkZ
 	METHOD method_8402 aaa (IILnet/minecraft/class_2806;Z)Lnet/minecraft/class_2791;
-		ARG 1 chunkX
+		ARG 1 bar
 		ARG 2 dsf
 		ARG 3 leastStatus
 		ARG 4 create
