@@ -16,6 +16,7 @@ CLASS net/minecraft/class_29 net/minecraft/world/WorldSaveHandler
 	METHOD method_130 getDataFixer ()Lcom/mojang/datafixers/DataFixer;
 	METHOD method_131 saveWorld (Lnet/minecraft/class_31;Lnet/minecraft/class_2487;)V
 	METHOD method_132 getWorldDir ()Ljava/io/File;
+		COMMENT asdas
 	METHOD method_133 readProperties ()Lnet/minecraft/class_31;
 	METHOD method_134 getStructureManager ()Lnet/minecraft/class_3485;
 	METHOD method_136 saveWorld (Lnet/minecraft/class_31;)V
