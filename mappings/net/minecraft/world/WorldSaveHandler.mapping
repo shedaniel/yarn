@@ -11,7 +11,7 @@ CLASS net/minecraft/class_29 net/minecraft/world/WorldSaveHandler
 		ARG 2 worldName
 		ARG 3 server
 		ARG 4 dataFixer
-	METHOD method_128 writeSessionLock ()V
+	METHOD method_128 aa ()V
 		COMMENT s
 	METHOD method_130 getDataFixer ()Lcom/mojang/datafixers/DataFixer;
 	METHOD method_131 saveWorld (Lnet/minecraft/class_31;Lnet/minecraft/class_2487;)V
