@@ -156,7 +156,7 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 		ARG 3 pos
 		ARG 4 flags
 	METHOD method_9530 foo (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;
-		ARG 1 state
+		ARG 1 lel
 		ARG 2 view
 		ARG 3 pos
 		ARG 4 ePos
