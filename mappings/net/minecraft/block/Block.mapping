@@ -155,7 +155,7 @@ CLASS net/minecraft/class_2248 net/minecraft/block/Block
 		ARG 2 world
 		ARG 3 pos
 		ARG 4 flags
-	METHOD method_9530 getOutlineShape (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;
+	METHOD method_9530 foo (Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;
 		ARG 1 state
 		ARG 2 view
 		ARG 3 pos
