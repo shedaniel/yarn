@@ -7,7 +7,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_17601 serverId Ljava/lang/String;
 	FIELD field_17704 DEMO_LEVEL_INFO Lnet/minecraft/class_1940;
 	FIELD field_19237 eraseCache Z
-	FIELD field_19248 maxTickEnd J
+	FIELD field_19248 timeEndTickFinal J
 	FIELD field_19249 nextTickWait Z
 	FIELD field_19249 didTaskRunLastTick Z
 		COMMENT Used by the tick governor/scheduler to decide on how to budget the remaining spare CPU time for this tick.
