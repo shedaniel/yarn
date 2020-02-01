@@ -103,6 +103,8 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_20383 setEraseCache (Z)V
 		ARG 1 eraseCache
 	METHOD method_20415 isTaskRan ()Z
+		COMMENT Checks the Server, then each World's chunk manager, in sequence, for a task to run. Returns early when one is found.
+		COMMENT @return false if no tasks ran at all, otherwise true. 
 	METHOD method_21613 dump (Ljava/nio/file/Path;)V
 		ARG 1 path
 	METHOD method_21614 dumpExampleCrash (Ljava/nio/file/Path;)V
