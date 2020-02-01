@@ -102,6 +102,7 @@ CLASS net/minecraft/server/MinecraftServer
 		ARG 1 locked
 	METHOD method_20383 setEraseCache (Z)V
 		ARG 1 eraseCache
+	METHOD method_20415 isTaskRan ()Z
 	METHOD method_21613 dump (Ljava/nio/file/Path;)V
 		ARG 1 path
 	METHOD method_21614 dumpExampleCrash (Ljava/nio/file/Path;)V
