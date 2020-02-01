@@ -42,6 +42,7 @@ CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
 	METHOD method_18648 checkChunk (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
 	METHOD method_23777 getSkyColor (Lnet/minecraft/class_2338;F)Lnet/minecraft/class_243;
+		ARG 2 tickDelta
 	METHOD method_23780 calculateColor (Lnet/minecraft/class_2338;Lnet/minecraft/world/level/ColorResolver;)I
 		ARG 1 pos
 		ARG 2 colorResolver
