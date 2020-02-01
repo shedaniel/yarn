@@ -15,6 +15,8 @@ CLASS net/minecraft/class_1255 net/minecraft/util/thread/ThreadExecutor
 	METHOD method_18856 canExecute (Ljava/lang/Runnable;)Z
 		ARG 1 task
 	METHOD method_18857 runTasks (Ljava/util/function/BooleanSupplier;)V
+		COMMENT Keeps running tasks until interrupted. 
+		COMMENT @param stopCondition When true, will stop running tasks.
 		ARG 1 stopCondition
 	METHOD method_18859 executeTask (Ljava/lang/Runnable;)V
 		ARG 1 task
