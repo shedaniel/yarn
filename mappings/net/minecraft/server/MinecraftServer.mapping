@@ -10,7 +10,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_19248 timeEndTickFinal J
 		COMMENT The runtime-determined value of the actual time to end the current tick. Used to ensure the server can catch-up when running behind in tasks.
 	FIELD field_19249 nextTickWait Z
-	FIELD field_19249 didTaskRunLastTick Z
+	FIELD field_19249 taskRanThisTick Z
 		COMMENT Used by the tick governor/scheduler to decide on how to budget the remaining spare CPU time for this tick.
 	FIELD field_20279 COMPLETED_UNIT_FUTURE Ljava/util/concurrent/CompletableFuture;
 	FIELD field_20850 dataCommandStorage Lnet/minecraft/class_4565;
