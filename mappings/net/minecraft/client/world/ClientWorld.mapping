@@ -43,6 +43,7 @@ CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
 		ARG 1 entity
 	METHOD method_23777 getSkyColor (Lnet/minecraft/class_2338;F)Lnet/minecraft/class_243;
 		ARG 2 tickDelta
+	METHOD method_23777 getSkyColor1 (Lnet/minecraft/class_2338;F)Lnet/minecraft/class_243;
 	METHOD method_23780 calculateColor (Lnet/minecraft/class_2338;Lnet/minecraft/world/level/ColorResolver;)I
 		ARG 1 pos
 		ARG 2 colorResolver
