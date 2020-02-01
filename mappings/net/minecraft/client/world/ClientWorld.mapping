@@ -54,6 +54,7 @@ CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
 		ARG 1 tickDelta
 	METHOD method_23786 getFogColor (F)Lnet/minecraft/class_243;
 		ARG 1 tickDelta
+	METHOD method_23787 getSkyColorFactor (F)F
 	METHOD method_23788 getSkyDarknessHeight ()D
 	METHOD method_23789 getLightningTicksLeft ()I
 	METHOD method_2932 addParticle (DDDDDLnet/minecraft/class_2394;)V
