@@ -10,6 +10,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_19248 maxTickEnd J
 	FIELD field_19249 nextTickWait Z
 	FIELD field_19249 didTaskRunLastTick Z
+		COMMENT Used by the tick governor/scheduler to decide on how to budget the remaining spare CPU time for this tick.
 	FIELD field_20279 COMPLETED_UNIT_FUTURE Ljava/util/concurrent/CompletableFuture;
 	FIELD field_20850 dataCommandStorage Lnet/minecraft/class_4565;
 	FIELD field_20851 predicateManager Lnet/minecraft/class_4567;
