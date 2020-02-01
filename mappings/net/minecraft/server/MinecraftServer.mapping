@@ -29,7 +29,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_4554 flightEnabled Z
 	FIELD field_4555 serverPort I
 	FIELD field_4556 userCache Lnet/minecraft/class_3312;
-	FIELD field_4557 timeReferenceLastOverload J
+	FIELD field_4557 timeLastCatchup J
 	FIELD field_4558 scoreboard Lnet/minecraft/class_2995;
 	FIELD field_4560 preventProxyConnections Z
 	FIELD field_4561 stopped Z
