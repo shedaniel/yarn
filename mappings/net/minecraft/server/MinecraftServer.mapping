@@ -42,6 +42,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_4569 bonusChest Z
 	FIELD field_4570 enforceWhitelist Z
 	FIELD field_4571 timeEndTickIdeal J
+		COMMENT The runtime-incremented value of the ideal time to end the current tick.
 	FIELD field_4572 ticks I
 	FIELD field_4573 lastTickLengths [J
 	FIELD field_4574 displayName Ljava/lang/String;
