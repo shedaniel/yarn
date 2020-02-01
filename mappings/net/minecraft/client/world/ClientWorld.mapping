@@ -47,6 +47,7 @@ CLASS net/minecraft/class_638 net/minecraft/client/world/ClientWorld
 		ARG 1 pos
 		ARG 2 colorResolver
 	METHOD method_23782 resetChunkColor (II)V
+	METHOD method_23783 getBaseLight (F)F
 	METHOD method_23784 reloadColor ()V
 	METHOD method_23785 getCloudsColor (F)Lnet/minecraft/class_243;
 		ARG 1 tickDelta
